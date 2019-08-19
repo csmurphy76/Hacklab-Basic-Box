@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Front",
-            "x": 231,
-            "y": 60,
+            "x": 229,
+            "y": 64,
             "uniqueID": 796098,
             "ioValues": [
                 {
@@ -120,12 +120,79 @@
         {
             "atomType": "Molecule",
             "name": "Side",
-            "x": 221,
+            "x": 222,
             "y": 137,
             "uniqueID": 710551,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Depth",
+                    "ioValue": 520
+                },
+                {
+                    "name": "Height",
+                    "ioValue": 360
+                },
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 6
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Depth",
+                    "x": 35,
+                    "y": 30,
+                    "uniqueID": 505644,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Height",
+                    "x": 37,
+                    "y": 90,
+                    "uniqueID": 392427,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 40,
+                    "y": 150,
+                    "uniqueID": 516161,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 344,
+                    "y": 101,
+                    "uniqueID": 111194,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 520
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 360
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 517,
+                    "y": 160,
+                    "uniqueID": 586277,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 6
+                        }
+                    ]
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -134,14 +201,44 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x length",
+                    "ap1ID": 505644,
+                    "ap2ID": 111194
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap1ID": 392427,
+                    "ap2ID": 111194
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 516161,
+                    "ap2ID": 586277
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "height",
+                    "ap1ID": 111194,
+                    "ap2ID": 586277
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 586277
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
             "atomType": "Molecule",
             "name": "Bottom",
             "x": 221,
-            "y": 218,
+            "y": 216,
             "uniqueID": 491444,
             "ioValues": [],
             "topLevel": false,
@@ -210,8 +307,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Front",
-                    "x": 231,
-                    "y": 60,
+                    "x": 229,
+                    "y": 64,
                     "uniqueID": 796098,
                     "ioValues": [
                         {
@@ -239,16 +336,29 @@
                 {
                     "atomType": "Molecule",
                     "name": "Side",
-                    "x": 221,
+                    "x": 222,
                     "y": 137,
                     "uniqueID": 710551,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Depth",
+                            "ioValue": 520
+                        },
+                        {
+                            "name": "Height",
+                            "ioValue": 360
+                        },
+                        {
+                            "name": "Wood Thickness",
+                            "ioValue": 6
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Bottom",
                     "x": 221,
-                    "y": 218,
+                    "y": 216,
                     "uniqueID": 491444,
                     "ioValues": []
                 },
@@ -275,9 +385,27 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Height",
+                    "ap1ID": 964257,
+                    "ap2ID": 710551
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Depth",
+                    "ap1ID": 160839,
+                    "ap2ID": 710551
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Wood Thickness",
                     "ap1ID": 963365,
                     "ap2ID": 796098
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Wood Thickness",
+                    "ap1ID": 963365,
+                    "ap2ID": 710551
                 }
             ],
             "fileTypeVersion": 1
