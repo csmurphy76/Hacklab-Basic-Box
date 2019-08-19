@@ -120,8 +120,8 @@
         {
             "atomType": "Molecule",
             "name": "Side",
-            "x": 222,
-            "y": 137,
+            "x": 223,
+            "y": 139,
             "uniqueID": 710551,
             "ioValues": [
                 {
@@ -166,8 +166,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 344,
-                    "y": 101,
+                    "x": 341,
+                    "y": 99,
                     "uniqueID": 111194,
                     "ioValues": [
                         {
@@ -183,12 +183,12 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 517,
-                    "y": 160,
+                    "x": 516,
+                    "y": 147,
                     "uniqueID": 586277,
                     "ioValues": [
                         {
-                            "name": "geometry",
+                            "name": "height",
                             "ioValue": 6
                         }
                     ]
@@ -216,13 +216,13 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "geometry",
+                    "ap2Name": "height",
                     "ap1ID": 516161,
                     "ap2ID": 586277
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "height",
+                    "ap2Name": "geometry",
                     "ap1ID": 111194,
                     "ap2ID": 586277
                 },
@@ -237,12 +237,49 @@
         {
             "atomType": "Molecule",
             "name": "Bottom",
-            "x": 221,
-            "y": 216,
+            "x": 214,
+            "y": 209,
             "uniqueID": 491444,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input585980",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input696453",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input454947",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Input585980",
+                    "x": 42,
+                    "y": 60,
+                    "uniqueID": 449322,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input696453",
+                    "x": 47,
+                    "y": 149,
+                    "uniqueID": 464571,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input454947",
+                    "x": 41,
+                    "y": 245,
+                    "uniqueID": 449628,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -299,8 +336,8 @@
                 {
                     "atomType": "Input",
                     "name": "Depth",
-                    "x": 38,
-                    "y": 193,
+                    "x": 37,
+                    "y": 190,
                     "uniqueID": 160839,
                     "ioValues": []
                 },
@@ -336,8 +373,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Side",
-                    "x": 222,
-                    "y": 137,
+                    "x": 223,
+                    "y": 139,
                     "uniqueID": 710551,
                     "ioValues": [
                         {
@@ -357,10 +394,23 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bottom",
-                    "x": 221,
-                    "y": 216,
+                    "x": 214,
+                    "y": 209,
                     "uniqueID": 491444,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Input585980",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Input696453",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Input454947",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
