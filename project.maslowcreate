@@ -576,8 +576,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 189,
-                    "y": 25,
+                    "x": 191,
+                    "y": 23,
                     "uniqueID": 990970,
                     "ioValues": [
                         {
@@ -585,7 +585,7 @@
                             "ioValue": 520
                         }
                     ],
-                    "currentEquation": "D/2"
+                    "currentEquation": "D/2-25"
                 },
                 {
                     "atomType": "Input",
@@ -619,20 +619,6 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 207,
-                    "y": 114,
-                    "uniqueID": 697436,
-                    "ioValues": [
-                        {
-                            "name": "D",
-                            "ioValue": 520
-                        }
-                    ],
-                    "currentEquation": "(D/-2)-25"
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
                     "x": 189,
                     "y": 164,
                     "uniqueID": 304980,
@@ -651,6 +637,20 @@
                     "y": 253,
                     "uniqueID": 963365,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 263,
+                    "y": 104,
+                    "uniqueID": 697436,
+                    "ioValues": [
+                        {
+                            "name": "D",
+                            "ioValue": 520
+                        }
+                    ],
+                    "currentEquation": "(D/-2)+25"
                 },
                 {
                     "atomType": "Molecule",
@@ -717,7 +717,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 260
+                            "ioValue": 235
                         },
                         {
                             "name": "yDist",
@@ -801,7 +801,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -285
+                            "ioValue": -235
                         },
                         {
                             "name": "yDist",
@@ -837,8 +837,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 875,
-                    "y": 164,
+                    "x": 878,
+                    "y": 161,
                     "uniqueID": 418462,
                     "ioValues": [
                         {
@@ -961,12 +961,6 @@
                 },
                 {
                     "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap1ID": 697436,
-                    "ap2ID": 873090
-                },
-                {
-                    "ap1Name": "result",
                     "ap2Name": "yDist",
                     "ap1ID": 304980,
                     "ap2ID": 993346
@@ -988,6 +982,12 @@
                     "ap2Name": "Wood Thickness",
                     "ap1ID": 963365,
                     "ap2ID": 491444
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 697436,
+                    "ap2ID": 873090
                 },
                 {
                     "ap1Name": "Geometry",
