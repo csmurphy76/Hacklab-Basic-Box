@@ -787,6 +787,24 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 791,
+                    "y": 73,
+                    "uniqueID": 844290,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        }
+                    ],
+                    "currentEquation": "x + y"
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 875,
