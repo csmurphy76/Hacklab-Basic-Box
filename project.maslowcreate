@@ -3,17 +3,17 @@
         {
             "atomType": "Molecule",
             "name": "Front",
-            "x": 229,
-            "y": 57,
+            "x": 231,
+            "y": 60,
             "uniqueID": 796098,
             "ioValues": [
                 {
                     "name": "Width",
-                    "ioValue": 30
+                    "ioValue": 300
                 },
                 {
                     "name": "Height",
-                    "ioValue": 36
+                    "ioValue": 360
                 },
                 {
                     "name": "Wood Thickness",
@@ -55,11 +55,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 30
+                            "ioValue": 300
                         },
                         {
                             "name": "y length",
-                            "ioValue": 36
+                            "ioValue": 360
                         }
                     ]
                 },
@@ -166,15 +166,15 @@
             "ioValues": [
                 {
                     "name": "Width",
-                    "ioValue": 30
+                    "ioValue": 300
                 },
                 {
                     "name": "Height",
-                    "ioValue": 36
+                    "ioValue": 360
                 },
                 {
                     "name": "Depth",
-                    "ioValue": 52
+                    "ioValue": 520
                 },
                 {
                     "name": "Wood Thickness",
@@ -186,41 +186,41 @@
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 38,
-                    "y": 52,
+                    "x": 33,
+                    "y": 54,
                     "uniqueID": 346565,
                     "ioValues": []
                 },
                 {
                     "atomType": "Input",
                     "name": "Height",
-                    "x": 35,
-                    "y": 118,
+                    "x": 36,
+                    "y": 123,
                     "uniqueID": 964257,
                     "ioValues": []
                 },
                 {
                     "atomType": "Input",
                     "name": "Depth",
-                    "x": 40,
-                    "y": 182,
+                    "x": 38,
+                    "y": 193,
                     "uniqueID": 160839,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Front",
-                    "x": 229,
-                    "y": 57,
+                    "x": 231,
+                    "y": 60,
                     "uniqueID": 796098,
                     "ioValues": [
                         {
                             "name": "Width",
-                            "ioValue": 30
+                            "ioValue": 300
                         },
                         {
                             "name": "Height",
-                            "ioValue": 36
+                            "ioValue": 360
                         },
                         {
                             "name": "Wood Thickness",
@@ -231,8 +231,8 @@
                 {
                     "atomType": "Input",
                     "name": "Wood Thickness",
-                    "x": 35,
-                    "y": 249,
+                    "x": 31,
+                    "y": 253,
                     "uniqueID": 963365,
                     "ioValues": []
                 },
