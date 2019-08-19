@@ -2,13 +2,146 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Front",
+            "x": 226,
+            "y": 70,
+            "uniqueID": 796098,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Back",
+            "x": 222,
+            "y": 142,
+            "uniqueID": 710551,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Bottom",
+            "x": 222,
+            "y": 222,
+            "uniqueID": 491444,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Hacklab Basic Box",
             "x": 0,
             "y": 0,
             "uniqueID": 520325,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Width",
+                    "ioValue": 30
+                },
+                {
+                    "name": "Height",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Depth",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Wood Thickness",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": true,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 38,
+                    "y": 52,
+                    "uniqueID": 346565,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Height",
+                    "x": 35,
+                    "y": 118,
+                    "uniqueID": 964257,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Depth",
+                    "x": 39,
+                    "y": 169,
+                    "uniqueID": 160839,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Front",
+                    "x": 226,
+                    "y": 70,
+                    "uniqueID": 796098,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 42,
+                    "y": 246,
+                    "uniqueID": 963365,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Back",
+                    "x": 222,
+                    "y": 142,
+                    "uniqueID": 710551,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Bottom",
+                    "x": 222,
+                    "y": 222,
+                    "uniqueID": 491444,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
