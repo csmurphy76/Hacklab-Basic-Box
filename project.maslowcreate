@@ -503,6 +503,20 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 216,
+                    "y": 89,
+                    "uniqueID": 304980,
+                    "ioValues": [
+                        {
+                            "name": "W",
+                            "ioValue": 300
+                        }
+                    ],
+                    "currentEquation": "W/-2"
+                },
+                {
                     "atomType": "Input",
                     "name": "Wood Thickness",
                     "x": 31,
@@ -590,13 +604,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 379,
-                    "y": 112,
+                    "x": 376,
+                    "y": 110,
                     "uniqueID": 993346,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -150
                         },
                         {
                             "name": "yDist",
@@ -611,8 +625,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 383,
-                    "y": 160,
+                    "x": 379,
+                    "y": 156,
                     "uniqueID": 999647,
                     "ioValues": [
                         {
@@ -632,8 +646,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 356,
-                    "y": 226,
+                    "x": 353,
+                    "y": 234,
                     "uniqueID": 902314,
                     "ioValues": [
                         {
@@ -653,8 +667,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 355,
-                    "y": 281,
+                    "x": 358,
+                    "y": 278,
                     "uniqueID": 896000,
                     "ioValues": [
                         {
@@ -764,6 +778,12 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 346565,
+                    "ap2ID": 304980
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Height",
                     "ap1ID": 964257,
                     "ap2ID": 796098
@@ -791,6 +811,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 796098,
                     "ap2ID": 230938
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 304980,
+                    "ap2ID": 993346
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -822,6 +848,7 @@
                     "ap1ID": 710551,
                     "ap2ID": 993346
                 },
+                null,
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
