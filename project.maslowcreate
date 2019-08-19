@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Front",
-            "x": 192,
-            "y": 74,
+            "x": 190,
+            "y": 72,
             "uniqueID": 796098,
             "ioValues": [
                 {
@@ -93,13 +93,13 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 394,
-                    "y": 222,
+                    "x": 391,
+                    "y": 228,
                     "uniqueID": 351355,
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 260
+                            "ioValue": 360
                         }
                     ],
                     "currentEquation": "H/2"
@@ -142,7 +142,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 130
+                            "ioValue": 180
                         }
                     ]
                 },
@@ -169,6 +169,12 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "H",
+                    "ap1ID": 237680,
+                    "ap2ID": 351355
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "height",
                     "ap1ID": 541949,
                     "ap2ID": 560063
@@ -178,12 +184,6 @@
                     "ap2Name": "y length",
                     "ap1ID": 708501,
                     "ap2ID": 854474
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "H",
-                    "ap1ID": 708501,
-                    "ap2ID": 351355
                 },
                 {
                     "ap1Name": "geometry",
@@ -598,8 +598,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Front",
-                    "x": 192,
-                    "y": 74,
+                    "x": 190,
+                    "y": 72,
                     "uniqueID": 796098,
                     "ioValues": [
                         {
