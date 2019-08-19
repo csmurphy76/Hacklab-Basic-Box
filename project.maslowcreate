@@ -102,7 +102,7 @@
                             "ioValue": 360
                         }
                     ],
-                    "currentEquation": "H/2"
+                    "currentEquation": "H/2+50"
                 },
                 {
                     "atomType": "Rotate",
@@ -142,7 +142,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 180
+                            "ioValue": 230
                         }
                     ]
                 },
@@ -576,8 +576,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 188,
-                    "y": 23,
+                    "x": 189,
+                    "y": 25,
                     "uniqueID": 990970,
                     "ioValues": [
                         {
@@ -619,8 +619,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 215,
-                    "y": 120,
+                    "x": 207,
+                    "y": 114,
                     "uniqueID": 697436,
                     "ioValues": [
                         {
@@ -628,7 +628,7 @@
                             "ioValue": 520
                         }
                     ],
-                    "currentEquation": "D/-2"
+                    "currentEquation": "(D/-2)-25"
                 },
                 {
                     "atomType": "Equation",
@@ -711,8 +711,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 385,
-                    "y": 69,
+                    "x": 421,
+                    "y": 48,
                     "uniqueID": 682444,
                     "ioValues": [
                         {
@@ -795,13 +795,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 521,
-                    "y": 121,
+                    "x": 516,
+                    "y": 106,
                     "uniqueID": 873090,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -260
+                            "ioValue": -285
                         },
                         {
                             "name": "yDist",
