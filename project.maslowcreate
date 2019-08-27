@@ -418,7 +418,7 @@
             "atomType": "Molecule",
             "name": "Bottom",
             "x": 201,
-            "y": 295,
+            "y": 281,
             "uniqueID": 491444,
             "ioValues": [
                 {
@@ -691,7 +691,7 @@
                     "atomType": "Molecule",
                     "name": "Bottom",
                     "x": 201,
-                    "y": 295,
+                    "y": 281,
                     "uniqueID": 491444,
                     "ioValues": [
                         {
@@ -817,7 +817,7 @@
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 446,
-                    "y": 306,
+                    "y": 281,
                     "uniqueID": 896000,
                     "ioValues": [
                         {
