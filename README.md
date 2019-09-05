@@ -10,6 +10,9 @@
 ## Front
 
 
+## Handle
+
+
 ## Side Tabs
 
 
@@ -17,9 +20,6 @@
 
 
 ## Bottom Tabs
-
-
-## Handle
 
 
 ## Side

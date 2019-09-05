@@ -2,6 +2,240 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Handle",
+            "x": 397,
+            "y": 230,
+            "uniqueID": 207912,
+            "ioValues": [
+                {
+                    "name": "Thickness",
+                    "ioValue": 6
+                },
+                {
+                    "name": "Height",
+                    "ioValue": 360
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 267,
+                    "y": 110,
+                    "uniqueID": 692833,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 30
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 399,
+                    "y": 62,
+                    "uniqueID": 835833,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": -50
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 430,
+                    "y": 193,
+                    "uniqueID": 687663,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 50
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Thickness",
+                    "x": 437,
+                    "y": 282,
+                    "uniqueID": 949903,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "ShrinkWrap",
+                    "name": "Shrink Wrap",
+                    "x": 525,
+                    "y": 97,
+                    "uniqueID": 611771,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 116899",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 930619",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 566299",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 116899",
+                            "ioValue": 10
+                        }
+                    ],
+                    "closedSelection": 0
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 690,
+                    "y": 81,
+                    "uniqueID": 191609,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 6
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Height",
+                    "x": 682,
+                    "y": 218,
+                    "uniqueID": 867744,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 803,
+                    "y": 235,
+                    "uniqueID": 828878,
+                    "ioValues": [
+                        {
+                            "name": "H",
+                            "ioValue": 360
+                        }
+                    ],
+                    "currentEquation": "H/3"
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 891,
+                    "y": 146,
+                    "uniqueID": 823127,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 120
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 692833,
+                    "ap2ID": 687663
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 692833,
+                    "ap2ID": 835833
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 566299",
+                    "ap1ID": 835833,
+                    "ap2ID": 611771
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 930619",
+                    "ap1ID": 687663,
+                    "ap2ID": 611771
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap1ID": 949903,
+                    "ap2ID": 191609
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 611771,
+                    "ap2ID": 191609
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 191609,
+                    "ap2ID": 823127
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "H",
+                    "ap1ID": 867744,
+                    "ap2ID": 828878
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 828878,
+                    "ap2ID": 823127
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 823127
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Side Tabs",
             "x": 481,
             "y": 33,
@@ -420,240 +654,6 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Handle",
-            "x": 494,
-            "y": 209,
-            "uniqueID": 207912,
-            "ioValues": [
-                {
-                    "name": "Thickness",
-                    "ioValue": 10
-                },
-                {
-                    "name": "Height",
-                    "ioValue": 10
-                }
-            ],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 267,
-                    "y": 110,
-                    "uniqueID": 692833,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 30
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 399,
-                    "y": 62,
-                    "uniqueID": 835833,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": -50
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 430,
-                    "y": 193,
-                    "uniqueID": 687663,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 50
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Thickness",
-                    "x": 437,
-                    "y": 282,
-                    "uniqueID": 949903,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "ShrinkWrap",
-                    "name": "Shrink Wrap",
-                    "x": 525,
-                    "y": 97,
-                    "uniqueID": 611771,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 116899",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 930619",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 566299",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 116899",
-                            "ioValue": 10
-                        }
-                    ],
-                    "closedSelection": 0
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 690,
-                    "y": 81,
-                    "uniqueID": 191609,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Height",
-                    "x": 682,
-                    "y": 218,
-                    "uniqueID": 867744,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 803,
-                    "y": 235,
-                    "uniqueID": 828878,
-                    "ioValues": [
-                        {
-                            "name": "H",
-                            "ioValue": 10
-                        }
-                    ],
-                    "currentEquation": "H/2"
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 891,
-                    "y": 146,
-                    "uniqueID": 823127,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 5
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 692833,
-                    "ap2ID": 687663
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 692833,
-                    "ap2ID": 835833
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 566299",
-                    "ap1ID": 835833,
-                    "ap2ID": 611771
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 930619",
-                    "ap1ID": 687663,
-                    "ap2ID": 611771
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "height",
-                    "ap1ID": 949903,
-                    "ap2ID": 191609
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 611771,
-                    "ap2ID": 191609
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 191609,
-                    "ap2ID": 823127
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "H",
-                    "ap1ID": 867744,
-                    "ap2ID": 828878
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "yDist",
-                    "ap1ID": 828878,
-                    "ap2ID": 823127
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 823127
-                }
-            ],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Front",
             "x": 183,
             "y": 69,
@@ -745,6 +745,23 @@
                 },
                 {
                     "atomType": "Molecule",
+                    "name": "Handle",
+                    "x": 397,
+                    "y": 230,
+                    "uniqueID": 207912,
+                    "ioValues": [
+                        {
+                            "name": "Thickness",
+                            "ioValue": 6
+                        },
+                        {
+                            "name": "Height",
+                            "ioValue": 360
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Molecule",
                     "name": "Side Tabs",
                     "x": 481,
                     "y": 33,
@@ -786,21 +803,12 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Handle",
-                    "x": 494,
-                    "y": 209,
-                    "uniqueID": 207912,
-                    "ioValues": [
-                        {
-                            "name": "Thickness",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Height",
-                            "ioValue": 10
-                        }
-                    ]
+                    "atomType": "CutAway",
+                    "name": "Cut Away",
+                    "x": 573,
+                    "y": 208,
+                    "uniqueID": 694140,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
@@ -831,14 +839,6 @@
                         }
                     ],
                     "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "CutAway",
-                    "name": "Cut Away",
-                    "x": 640,
-                    "y": 183,
-                    "uniqueID": 694140,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Rotate",
@@ -905,6 +905,12 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Thickness",
+                    "ap1ID": 541949,
+                    "ap2ID": 207912
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "x length",
                     "ap1ID": 455842,
                     "ap2ID": 854474
@@ -926,6 +932,12 @@
                     "ap2Name": "H",
                     "ap1ID": 237680,
                     "ap2ID": 351355
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Height",
+                    "ap1ID": 237680,
+                    "ap2ID": 207912
                 },
                 {
                     "ap1Name": "result",
@@ -953,6 +965,12 @@
                 },
                 {
                     "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 207912,
+                    "ap2ID": 694140
+                },
+                {
+                    "ap1Name": "Geometry",
                     "ap2Name": "3D shape 809646",
                     "ap1ID": 666773,
                     "ap2ID": 522995
@@ -964,22 +982,16 @@
                     "ap2ID": 522995
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 207912,
-                    "ap2ID": 694140
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 602790",
+                    "ap1ID": 694140,
+                    "ap2ID": 522995
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 522995,
                     "ap2ID": 572707
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 602790",
-                    "ap1ID": 694140,
-                    "ap2ID": 522995
                 },
                 {
                     "ap1Name": "geometry",
