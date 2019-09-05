@@ -81,16 +81,30 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 160,
-                    "y": 264,
+                    "x": 202,
+                    "y": 256,
                     "uniqueID": 432412,
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 360
+                            "ioValue": 300
                         }
                     ],
                     "currentEquation": "W/2"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 243,
+                    "y": 298,
+                    "uniqueID": 576250,
+                    "ioValues": [
+                        {
+                            "name": "W",
+                            "ioValue": 300
+                        }
+                    ],
+                    "currentEquation": "W/-2"
                 },
                 {
                     "atomType": "Translate",
@@ -105,7 +119,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -150
                         },
                         {
                             "name": "zDist",
@@ -126,7 +140,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 180
+                            "ioValue": 150
                         },
                         {
                             "name": "zDist",
@@ -221,12 +235,6 @@
             "allConnectors": [
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "W",
-                    "ap1ID": 682063,
-                    "ap2ID": 432412
-                },
-                {
-                    "ap1Name": "number or geometry",
                     "ap2Name": "Material Thickness",
                     "ap1ID": 956603,
                     "ap2ID": 692659
@@ -236,6 +244,18 @@
                     "ap2Name": "W",
                     "ap1ID": 398635,
                     "ap2ID": 790707
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 398635,
+                    "ap2ID": 432412
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 398635,
+                    "ap2ID": 576250
                 },
                 {
                     "ap1Name": "Geometry",
@@ -272,6 +292,12 @@
                     "ap2Name": "yDist",
                     "ap1ID": 432412,
                     "ap2ID": 802219
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 576250,
+                    "ap2ID": 664840
                 },
                 {
                     "ap1Name": "geometry",
