@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 520,
-            "y": 48,
+            "x": 522,
+            "y": 47,
             "uniqueID": 666773,
             "ioValues": [
                 {
@@ -42,7 +42,7 @@
                             "ioValue": 300
                         }
                     ],
-                    "currentEquation": "W/2"
+                    "currentEquation": "W/-2"
                 },
                 {
                     "atomType": "Input",
@@ -95,16 +95,20 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 132,
-                    "y": 299,
+                    "x": 183,
+                    "y": 300,
                     "uniqueID": 432412,
                     "ioValues": [
                         {
                             "name": "W",
                             "ioValue": 300
+                        },
+                        {
+                            "name": "T",
+                            "ioValue": 6
                         }
                     ],
-                    "currentEquation": "W/2"
+                    "currentEquation": "W/2+T"
                 },
                 {
                     "atomType": "Rotate",
@@ -136,7 +140,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 150
+                            "ioValue": -150
                         },
                         {
                             "name": "yDist",
@@ -151,13 +155,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 621,
-                    "y": 108,
+                    "x": 623,
+                    "y": 104,
                     "uniqueID": 802219,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 150
+                            "ioValue": -150
                         },
                         {
                             "name": "yDist",
@@ -178,7 +182,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 150
+                            "ioValue": 156
                         },
                         {
                             "name": "yDist",
@@ -199,7 +203,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 150
+                            "ioValue": 156
                         },
                         {
                             "name": "yDist",
@@ -223,6 +227,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 523490",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 678002",
                             "ioValue": 10
                         },
@@ -236,10 +244,6 @@
                         },
                         {
                             "name": "3D shape 398770",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 523490",
                             "ioValue": 10
                         }
                     ],
@@ -292,6 +296,12 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "T",
+                    "ap1ID": 956603,
+                    "ap2ID": 432412
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "W",
                     "ap1ID": 398635,
                     "ap2ID": 790707
@@ -301,12 +311,6 @@
                     "ap2Name": "W",
                     "ap1ID": 398635,
                     "ap2ID": 432412
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "W",
-                    "ap1ID": 398635,
-                    "ap2ID": 576250
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -402,16 +406,16 @@
             "uniqueID": 796098,
             "ioValues": [
                 {
+                    "name": "Wood Thickness",
+                    "ioValue": 6
+                },
+                {
                     "name": "Width",
                     "ioValue": 300
                 },
                 {
                     "name": "Height",
                     "ioValue": 360
-                },
-                {
-                    "name": "Wood Thickness",
-                    "ioValue": 6
                 }
             ],
             "topLevel": false,
@@ -501,8 +505,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 520,
-                    "y": 48,
+                    "x": 522,
+                    "y": 47,
                     "uniqueID": 666773,
                     "ioValues": [
                         {
@@ -549,15 +553,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 505767",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 608759",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 809646",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 505767",
                             "ioValue": 10
                         }
                     ],
@@ -1092,16 +1096,16 @@
                     "uniqueID": 796098,
                     "ioValues": [
                         {
+                            "name": "Wood Thickness",
+                            "ioValue": 6
+                        },
+                        {
                             "name": "Width",
                             "ioValue": 300
                         },
                         {
                             "name": "Height",
                             "ioValue": 360
-                        },
-                        {
-                            "name": "Wood Thickness",
-                            "ioValue": 6
                         }
                     ]
                 },
