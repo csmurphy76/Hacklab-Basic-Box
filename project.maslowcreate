@@ -617,10 +617,18 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Wood Thickness",
+                    "x": 31,
+                    "y": 253,
+                    "uniqueID": 963365,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 189,
-                    "y": 164,
+                    "x": 211,
+                    "y": 157,
                     "uniqueID": 304980,
                     "ioValues": [
                         {
@@ -629,14 +637,6 @@
                         }
                     ],
                     "currentEquation": "W/-2"
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Wood Thickness",
-                    "x": 31,
-                    "y": 253,
-                    "uniqueID": 963365,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Equation",
@@ -964,12 +964,6 @@
                     "ap2ID": 682444
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "yDist",
-                    "ap1ID": 304980,
-                    "ap2ID": 993346
-                },
-                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Wood Thickness",
                     "ap1ID": 963365,
@@ -986,6 +980,12 @@
                     "ap2Name": "Wood Thickness",
                     "ap1ID": 963365,
                     "ap2ID": 491444
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 304980,
+                    "ap2ID": 993346
                 },
                 {
                     "ap1Name": "result",
