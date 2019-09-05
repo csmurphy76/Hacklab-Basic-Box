@@ -1066,8 +1066,8 @@
         {
             "atomType": "Molecule",
             "name": "Side",
-            "x": 211,
-            "y": 204,
+            "x": 206,
+            "y": 205,
             "uniqueID": 710551,
             "ioValues": [
                 {
@@ -1263,8 +1263,8 @@
         {
             "atomType": "Molecule",
             "name": "Bottom",
-            "x": 201,
-            "y": 281,
+            "x": 206,
+            "y": 296,
             "uniqueID": 491444,
             "ioValues": [
                 {
@@ -1480,13 +1480,9 @@
                         {
                             "name": "W",
                             "ioValue": 300
-                        },
-                        {
-                            "name": "T",
-                            "ioValue": 6
                         }
                     ],
-                    "currentEquation": "W/-2+T"
+                    "currentEquation": "W/-2"
                 },
                 {
                     "atomType": "Equation",
@@ -1505,8 +1501,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Side",
-                    "x": 211,
-                    "y": 204,
+                    "x": 206,
+                    "y": 205,
                     "uniqueID": 710551,
                     "ioValues": [
                         {
@@ -1533,15 +1529,19 @@
                         {
                             "name": "W",
                             "ioValue": 300
+                        },
+                        {
+                            "name": "t",
+                            "ioValue": 1
                         }
                     ],
-                    "currentEquation": "W/2"
+                    "currentEquation": "W/2+t"
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Bottom",
-                    "x": 201,
-                    "y": 281,
+                    "x": 206,
+                    "y": 296,
                     "uniqueID": 491444,
                     "ioValues": [
                         {
@@ -1592,7 +1592,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -144
+                            "ioValue": -150
                         },
                         {
                             "name": "zDist",
@@ -1634,7 +1634,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 150
+                            "ioValue": 151
                         },
                         {
                             "name": "zDist",
@@ -1831,12 +1831,7 @@
                     "ap1ID": 963365,
                     "ap2ID": 491444
                 },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "T",
-                    "ap1ID": 963365,
-                    "ap2ID": 304980
-                },
+                null,
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
