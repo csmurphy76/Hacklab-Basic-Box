@@ -59,16 +59,16 @@
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 152,
-                    "y": 233,
+                    "x": 108,
+                    "y": 243,
                     "uniqueID": 398635,
                     "ioValues": []
                 },
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 253,
-                    "y": 195,
+                    "x": 205,
+                    "y": 188,
                     "uniqueID": 790707,
                     "ioValues": [
                         {
@@ -77,6 +77,24 @@
                         }
                     ],
                     "currentEquation": "W/5"
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Wood Tab",
+                    "x": 299,
+                    "y": 127,
+                    "uniqueID": 692659,
+                    "projectID": "206545509",
+                    "ioValues": [
+                        {
+                            "name": "Material Thickness",
+                            "ioValue": 6
+                        },
+                        {
+                            "name": "Length",
+                            "ioValue": 60
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -93,20 +111,27 @@
                     "currentEquation": "W/2"
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Wood Tab",
-                    "x": 329,
-                    "y": 130,
-                    "uniqueID": 692659,
-                    "projectID": "206545509",
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 316,
+                    "y": 172,
+                    "uniqueID": 780929,
                     "ioValues": [
                         {
-                            "name": "Material Thickness",
-                            "ioValue": 6
+                            "name": "geometry",
+                            "ioValue": ""
                         },
                         {
-                            "name": "Length",
-                            "ioValue": 60
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 90
                         }
                     ]
                 },
@@ -322,18 +347,6 @@
                     "ap2ID": 692659
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "yDist",
-                    "ap1ID": 432412,
-                    "ap2ID": 151736
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "yDist",
-                    "ap1ID": 432412,
-                    "ap2ID": 300583
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 692659,
@@ -355,6 +368,18 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 692659,
+                    "ap2ID": 300583
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 432412,
+                    "ap2ID": 151736
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 432412,
                     "ap2ID": 300583
                 },
                 {
@@ -452,8 +477,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 369,
-                    "y": 125,
+                    "x": 394,
+                    "y": 183,
                     "uniqueID": 854474,
                     "ioValues": [
                         {
