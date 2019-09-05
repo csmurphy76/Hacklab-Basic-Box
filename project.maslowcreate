@@ -354,9 +354,13 @@
                         {
                             "name": "H",
                             "ioValue": 260
+                        },
+                        {
+                            "name": "L",
+                            "ioValue": 60
                         }
                     ],
-                    "currentEquation": "H/2"
+                    "currentEquation": "H/2 - L"
                 },
                 {
                     "atomType": "Rotate",
@@ -406,7 +410,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 130
+                            "ioValue": 70
                         },
                         {
                             "name": "zDist",
@@ -448,7 +452,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 130
+                            "ioValue": 70
                         },
                         {
                             "name": "zDist",
@@ -537,6 +541,12 @@
                     "ap2Name": "Length",
                     "ap1ID": 790707,
                     "ap2ID": 692659
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "L",
+                    "ap1ID": 790707,
+                    "ap2ID": 412503
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -1682,6 +1692,14 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 132786",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 796017",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 540049",
                             "ioValue": 10
                         },
@@ -1867,22 +1885,11 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 796017",
-                    "ap1ID": 993346,
-                    "ap2ID": 418462
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 816488",
                     "ap1ID": 902314,
                     "ap2ID": 418462
                 },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 132786",
-                    "ap1ID": 999647,
-                    "ap2ID": 418462
-                },
+                null,
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 765528",
