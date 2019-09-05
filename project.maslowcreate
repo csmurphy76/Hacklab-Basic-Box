@@ -23,26 +23,30 @@
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 128,
-                    "y": 30,
-                    "uniqueID": 576250,
-                    "ioValues": [
-                        {
-                            "name": "W",
-                            "ioValue": 260
-                        }
-                    ],
-                    "currentEquation": "W/-2"
-                },
-                {
                     "atomType": "Input",
                     "name": "Height",
                     "x": 28,
                     "y": 136,
                     "uniqueID": 682063,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 157,
+                    "y": 28,
+                    "uniqueID": 576250,
+                    "ioValues": [
+                        {
+                            "name": "W",
+                            "ioValue": 260
+                        },
+                        {
+                            "name": "T",
+                            "ioValue": 6
+                        }
+                    ],
+                    "currentEquation": "W/-2-T"
                 },
                 {
                     "atomType": "Input",
@@ -55,24 +59,10 @@
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 105,
-                    "y": 204,
+                    "x": 152,
+                    "y": 233,
                     "uniqueID": 398635,
                     "ioValues": []
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 117,
-                    "y": 293,
-                    "uniqueID": 432412,
-                    "ioValues": [
-                        {
-                            "name": "W",
-                            "ioValue": 260
-                        }
-                    ],
-                    "currentEquation": "W/2"
                 },
                 {
                     "atomType": "Equation",
@@ -87,6 +77,20 @@
                         }
                     ],
                     "currentEquation": "W/5"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 132,
+                    "y": 299,
+                    "uniqueID": 432412,
+                    "ioValues": [
+                        {
+                            "name": "W",
+                            "ioValue": 260
+                        }
+                    ],
+                    "currentEquation": "W/2"
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -119,7 +123,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -130
+                            "ioValue": -136
                         },
                         {
                             "name": "zDist",
@@ -140,7 +144,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -130
+                            "ioValue": -136
                         },
                         {
                             "name": "zDist",
@@ -270,6 +274,18 @@
             ],
             "allConnectors": [
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 682063,
+                    "ap2ID": 432412
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 682063,
+                    "ap2ID": 576250
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
                     "ap1ID": 576250,
@@ -283,27 +299,27 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "W",
-                    "ap1ID": 682063,
-                    "ap2ID": 432412
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "W",
-                    "ap1ID": 682063,
-                    "ap2ID": 576250
-                },
-                {
-                    "ap1Name": "number or geometry",
                     "ap2Name": "Material Thickness",
                     "ap1ID": 956603,
                     "ap2ID": 692659
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "T",
+                    "ap1ID": 956603,
+                    "ap2ID": 576250
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "W",
                     "ap1ID": 398635,
                     "ap2ID": 790707
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "Length",
+                    "ap1ID": 790707,
+                    "ap2ID": 692659
                 },
                 {
                     "ap1Name": "result",
@@ -316,12 +332,6 @@
                     "ap2Name": "yDist",
                     "ap1ID": 432412,
                     "ap2ID": 300583
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "Length",
-                    "ap1ID": 790707,
-                    "ap2ID": 692659
                 },
                 {
                     "ap1Name": "Geometry",
