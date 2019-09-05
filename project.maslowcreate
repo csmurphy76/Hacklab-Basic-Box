@@ -93,15 +93,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 116899",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 930619",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 566299",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 116899",
                             "ioValue": 10
                         }
                     ],
@@ -242,16 +242,16 @@
             "uniqueID": 666773,
             "ioValues": [
                 {
-                    "name": "Height",
-                    "ioValue": 260
+                    "name": "Width",
+                    "ioValue": 300
                 },
                 {
                     "name": "Thickness",
                     "ioValue": 6
                 },
                 {
-                    "name": "Width",
-                    "ioValue": 300
+                    "name": "Height",
+                    "ioValue": 260
                 }
             ],
             "topLevel": false,
@@ -824,16 +824,16 @@
                     "uniqueID": 666773,
                     "ioValues": [
                         {
-                            "name": "Height",
-                            "ioValue": 260
+                            "name": "Width",
+                            "ioValue": 300
                         },
                         {
                             "name": "Thickness",
                             "ioValue": 6
                         },
                         {
-                            "name": "Width",
-                            "ioValue": 300
+                            "name": "Height",
+                            "ioValue": 260
                         }
                     ]
                 },
@@ -870,6 +870,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 218740",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 608759",
                             "ioValue": 10
                         },
@@ -879,10 +883,6 @@
                         },
                         {
                             "name": "3D shape 602790",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 218740",
                             "ioValue": 10
                         }
                     ],
@@ -1480,9 +1480,13 @@
                         {
                             "name": "W",
                             "ioValue": 300
+                        },
+                        {
+                            "name": "T",
+                            "ioValue": 6
                         }
                     ],
-                    "currentEquation": "W/-2"
+                    "currentEquation": "W/-2+T"
                 },
                 {
                     "atomType": "Equation",
@@ -1588,7 +1592,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -150
+                            "ioValue": -144
                         },
                         {
                             "name": "zDist",
@@ -1692,6 +1696,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 775881",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 215290",
                             "ioValue": 10
                         },
@@ -1713,10 +1721,6 @@
                         },
                         {
                             "name": "3D shape 679623",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 775881",
                             "ioValue": 10
                         }
                     ],
@@ -1826,6 +1830,12 @@
                     "ap2Name": "Wood Thickness",
                     "ap1ID": 963365,
                     "ap2ID": 491444
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "T",
+                    "ap1ID": 963365,
+                    "ap2ID": 304980
                 },
                 {
                     "ap1Name": "result",
