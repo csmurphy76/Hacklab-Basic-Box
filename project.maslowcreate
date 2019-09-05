@@ -33,20 +33,16 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 157,
+                    "x": 166,
                     "y": 28,
-                    "uniqueID": 576250,
+                    "uniqueID": 975651,
                     "ioValues": [
                         {
                             "name": "W",
                             "ioValue": 300
-                        },
-                        {
-                            "name": "T",
-                            "ioValue": 6
                         }
                     ],
-                    "currentEquation": "W/-2-T"
+                    "currentEquation": "W/2"
                 },
                 {
                     "atomType": "Input",
@@ -140,7 +136,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -156
+                            "ioValue": 150
                         },
                         {
                             "name": "yDist",
@@ -161,7 +157,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -156
+                            "ioValue": 150
                         },
                         {
                             "name": "yDist",
@@ -176,8 +172,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 622,
-                    "y": 197,
+                    "x": 615,
+                    "y": 210,
                     "uniqueID": 151736,
                     "ioValues": [
                         {
@@ -268,24 +264,6 @@
                     "currentEquation": "x + y"
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 939,
-                    "y": 257,
-                    "uniqueID": 975651,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 1
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 1
-                        }
-                    ],
-                    "currentEquation": "x + y"
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -297,13 +275,13 @@
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
-                    "ap1ID": 576250,
+                    "ap1ID": 975651,
                     "ap2ID": 802219
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
-                    "ap1ID": 576250,
+                    "ap1ID": 975651,
                     "ap2ID": 664840
                 },
                 {
@@ -311,12 +289,6 @@
                     "ap2Name": "Material Thickness",
                     "ap1ID": 956603,
                     "ap2ID": 692659
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "T",
-                    "ap1ID": 956603,
-                    "ap2ID": 576250
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -335,6 +307,12 @@
                     "ap2Name": "W",
                     "ap1ID": 398635,
                     "ap2ID": 576250
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 398635,
+                    "ap2ID": 975651
                 },
                 {
                     "ap1Name": "result",
