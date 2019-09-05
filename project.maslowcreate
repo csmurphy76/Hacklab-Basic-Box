@@ -49,18 +49,116 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Wood Tab",
-                    "x": 311,
-                    "y": 147,
+                    "x": 231,
+                    "y": 133,
                     "uniqueID": 692659,
                     "projectID": "206545509",
                     "ioValues": [
                         {
                             "name": "Material Thickness",
-                            "ioValue": 10
+                            "ioValue": 6
                         },
                         {
                             "name": "Length",
-                            "ioValue": 10
+                            "ioValue": 60
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 177,
+                    "y": 209,
+                    "uniqueID": 790707,
+                    "ioValues": [
+                        {
+                            "name": "W",
+                            "ioValue": 300
+                        }
+                    ],
+                    "currentEquation": "W/5"
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 397,
+                    "y": 56,
+                    "uniqueID": 664840,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 404,
+                    "y": 116,
+                    "uniqueID": 802219,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 407,
+                    "y": 191,
+                    "uniqueID": 151736,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 394,
+                    "y": 261,
+                    "uniqueID": 300583,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -73,7 +171,48 @@
                 }
             ],
             "allConnectors": [
-                null
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Material Thickness",
+                    "ap1ID": 956603,
+                    "ap2ID": 692659
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 398635,
+                    "ap2ID": 790707
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 692659,
+                    "ap2ID": 664840
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 692659,
+                    "ap2ID": 802219
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 692659,
+                    "ap2ID": 151736
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 692659,
+                    "ap2ID": 300583
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "Length",
+                    "ap1ID": 790707,
+                    "ap2ID": 692659
+                }
             ],
             "fileTypeVersion": 1
         },
