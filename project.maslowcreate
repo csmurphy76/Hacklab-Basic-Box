@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Handle",
-            "x": 397,
-            "y": 230,
+            "x": 396,
+            "y": 232,
             "uniqueID": 207912,
             "ioValues": [
                 {
@@ -131,8 +131,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 803,
-                    "y": 235,
+                    "x": 801,
+                    "y": 234,
                     "uniqueID": 828878,
                     "ioValues": [
                         {
@@ -140,7 +140,7 @@
                             "ioValue": 360
                         }
                     ],
-                    "currentEquation": "H/3"
+                    "currentEquation": "H/4.5"
                 },
                 {
                     "atomType": "Translate",
@@ -155,7 +155,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 120
+                            "ioValue": 80
                         },
                         {
                             "name": "zDist",
@@ -746,8 +746,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Handle",
-                    "x": 397,
-                    "y": 230,
+                    "x": 396,
+                    "y": 232,
                     "uniqueID": 207912,
                     "ioValues": [
                         {
