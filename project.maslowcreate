@@ -49,6 +49,20 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
+                    "x": 232,
+                    "y": 25,
+                    "uniqueID": 576250,
+                    "ioValues": [
+                        {
+                            "name": "W",
+                            "ioValue": 260
+                        }
+                    ],
+                    "currentEquation": "W/-2"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
                     "x": 161,
                     "y": 187,
                     "uniqueID": 790707,
@@ -81,30 +95,16 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 185,
-                    "y": 247,
+                    "x": 78,
+                    "y": 278,
                     "uniqueID": 432412,
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 1
+                            "ioValue": 260
                         }
                     ],
                     "currentEquation": "W/2"
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 200,
-                    "y": 299,
-                    "uniqueID": 576250,
-                    "ioValues": [
-                        {
-                            "name": "W",
-                            "ioValue": 300
-                        }
-                    ],
-                    "currentEquation": "W/-2"
                 },
                 {
                     "atomType": "Translate",
@@ -119,7 +119,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -150
+                            "ioValue": -130
                         },
                         {
                             "name": "zDist",
@@ -140,7 +140,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0.5
+                            "ioValue": -130
                         },
                         {
                             "name": "zDist",
@@ -161,7 +161,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 130
                         },
                         {
                             "name": "zDist",
@@ -182,7 +182,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 130
                         },
                         {
                             "name": "zDist",
@@ -233,7 +233,18 @@
                 }
             ],
             "allConnectors": [
-                null,
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 682063,
+                    "ap2ID": 432412
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 682063,
+                    "ap2ID": 576250
+                },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Material Thickness",
@@ -247,10 +258,16 @@
                     "ap2ID": 790707
                 },
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "W",
-                    "ap1ID": 398635,
-                    "ap2ID": 576250
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 576250,
+                    "ap2ID": 664840
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 576250,
+                    "ap2ID": 802219
                 },
                 {
                     "ap1Name": "result",
@@ -286,13 +303,13 @@
                     "ap1Name": "result",
                     "ap2Name": "yDist",
                     "ap1ID": 432412,
-                    "ap2ID": 802219
+                    "ap2ID": 151736
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
-                    "ap1ID": 576250,
-                    "ap2ID": 664840
+                    "ap1ID": 432412,
+                    "ap2ID": 300583
                 },
                 {
                     "ap1Name": "geometry",
