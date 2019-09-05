@@ -635,8 +635,8 @@
         {
             "atomType": "Molecule",
             "name": "Bottom Tabs",
-            "x": 512,
-            "y": 157,
+            "x": 730,
+            "y": 137,
             "uniqueID": 433570,
             "ioValues": [],
             "topLevel": false,
@@ -795,14 +795,6 @@
                     ]
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Bottom Tabs",
-                    "x": 512,
-                    "y": 157,
-                    "uniqueID": 433570,
-                    "ioValues": []
-                },
-                {
                     "atomType": "CutAway",
                     "name": "Cut Away",
                     "x": 573,
@@ -839,6 +831,14 @@
                         }
                     ],
                     "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Bottom Tabs",
+                    "x": 730,
+                    "y": 137,
+                    "uniqueID": 433570,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Rotate",
