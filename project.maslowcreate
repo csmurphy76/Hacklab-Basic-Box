@@ -87,7 +87,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 300
+                            "ioValue": 360
                         }
                     ],
                     "currentEquation": "W/2"
@@ -126,7 +126,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 150
+                            "ioValue": 180
                         },
                         {
                             "name": "zDist",
@@ -221,6 +221,12 @@
             "allConnectors": [
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 682063,
+                    "ap2ID": 432412
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Material Thickness",
                     "ap1ID": 956603,
                     "ap2ID": 692659
@@ -230,12 +236,6 @@
                     "ap2Name": "W",
                     "ap1ID": 398635,
                     "ap2ID": 790707
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "W",
-                    "ap1ID": 398635,
-                    "ap2ID": 432412
                 },
                 {
                     "ap1Name": "Geometry",
@@ -433,8 +433,26 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 639,
-                    "y": 70,
+                    "x": 621,
+                    "y": 196,
+                    "uniqueID": 441140,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 561156",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 561156",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 650,
+                    "y": 76,
                     "uniqueID": 522995,
                     "ioValues": [
                         {
@@ -451,24 +469,6 @@
                         },
                         {
                             "name": "3D shape 505767",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 621,
-                    "y": 196,
-                    "uniqueID": 441140,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 561156",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 561156",
                             "ioValue": 10
                         }
                     ],
