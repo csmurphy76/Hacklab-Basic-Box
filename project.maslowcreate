@@ -816,8 +816,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 446,
-                    "y": 281,
+                    "x": 451,
+                    "y": 288,
                     "uniqueID": 896000,
                     "ioValues": [
                         {
@@ -837,10 +837,14 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 878,
-                    "y": 166,
+                    "x": 879,
+                    "y": 147,
                     "uniqueID": 418462,
                     "ioValues": [
+                        {
+                            "name": "3D shape 540049",
+                            "ioValue": ""
+                        },
                         {
                             "name": "3D shape 540049",
                             "ioValue": 10
