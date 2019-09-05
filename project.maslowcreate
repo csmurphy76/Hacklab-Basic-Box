@@ -2,7 +2,7 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "Tabs",
+            "name": "Side Tabs",
             "x": 481,
             "y": 33,
             "uniqueID": 666773,
@@ -400,6 +400,46 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Bottom Tabs",
+            "x": 512,
+            "y": 157,
+            "uniqueID": 433570,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Handle",
+            "x": 494,
+            "y": 209,
+            "uniqueID": 207912,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Front",
             "x": 183,
             "y": 69,
@@ -491,7 +531,7 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Tabs",
+                    "name": "Side Tabs",
                     "x": 481,
                     "y": 33,
                     "uniqueID": 666773,
@@ -524,22 +564,20 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 621,
-                    "y": 196,
-                    "uniqueID": 441140,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 561156",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 561156",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
+                    "atomType": "Molecule",
+                    "name": "Bottom Tabs",
+                    "x": 512,
+                    "y": 157,
+                    "uniqueID": 433570,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Handle",
+                    "x": 494,
+                    "y": 209,
+                    "uniqueID": 207912,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
