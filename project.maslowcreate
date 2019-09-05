@@ -2,6 +2,63 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Tabs",
+            "x": 456,
+            "y": 192,
+            "uniqueID": 666773,
+            "ioValues": [
+                {
+                    "name": "Height",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Thickness",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input554071",
+                    "ioValue": 10
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Height",
+                    "x": 80,
+                    "y": 65,
+                    "uniqueID": 682063,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Thickness",
+                    "x": 82,
+                    "y": 116,
+                    "uniqueID": 956603,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input554071",
+                    "x": 142,
+                    "y": 213,
+                    "uniqueID": 398635,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Front",
             "x": 190,
             "y": 72,
@@ -55,8 +112,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 331,
-                    "y": 65,
+                    "x": 325,
+                    "y": 64,
                     "uniqueID": 854474,
                     "ioValues": [
                         {
@@ -90,6 +147,27 @@
                         }
                     ],
                     "currentEquation": "H/2+50"
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Tabs",
+                    "x": 456,
+                    "y": 192,
+                    "uniqueID": 666773,
+                    "ioValues": [
+                        {
+                            "name": "Height",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Thickness",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Input554071",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Extrude",
