@@ -47,6 +47,20 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 161,
+                    "y": 187,
+                    "uniqueID": 790707,
+                    "ioValues": [
+                        {
+                            "name": "W",
+                            "ioValue": 300
+                        }
+                    ],
+                    "currentEquation": "W/5"
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "Wood Tab",
                     "x": 231,
@@ -67,22 +81,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 177,
-                    "y": 209,
-                    "uniqueID": 790707,
-                    "ioValues": [
-                        {
-                            "name": "W",
-                            "ioValue": 300
-                        }
-                    ],
-                    "currentEquation": "W/5"
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 202,
-                    "y": 256,
+                    "x": 185,
+                    "y": 247,
                     "uniqueID": 432412,
                     "ioValues": [
                         {
@@ -95,8 +95,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 243,
-                    "y": 298,
+                    "x": 200,
+                    "y": 299,
                     "uniqueID": 576250,
                     "ioValues": [
                         {
@@ -258,6 +258,12 @@
                     "ap2ID": 576250
                 },
                 {
+                    "ap1Name": "result",
+                    "ap2Name": "Length",
+                    "ap1ID": 790707,
+                    "ap2ID": 692659
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 692659,
@@ -280,12 +286,6 @@
                     "ap2Name": "geometry",
                     "ap1ID": 692659,
                     "ap2ID": 300583
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "Length",
-                    "ap1ID": 790707,
-                    "ap2ID": 692659
                 },
                 {
                     "ap1Name": "result",
@@ -380,8 +380,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 268,
-                    "y": 170,
+                    "x": 239,
+                    "y": 179,
                     "uniqueID": 708501,
                     "ioValues": [
                         {
@@ -394,8 +394,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 371,
-                    "y": 124,
+                    "x": 369,
+                    "y": 125,
                     "uniqueID": 854474,
                     "ioValues": [
                         {
