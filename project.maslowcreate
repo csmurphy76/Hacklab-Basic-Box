@@ -163,6 +163,40 @@
                     ]
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 701,
+                    "y": 110,
+                    "uniqueID": 112074,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 523490",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 678002",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 138000",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 538036",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 398770",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 523490",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -212,6 +246,35 @@
                     "ap2Name": "Length",
                     "ap1ID": 790707,
                     "ap2ID": 692659
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 398770",
+                    "ap1ID": 664840,
+                    "ap2ID": 112074
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 538036",
+                    "ap1ID": 802219,
+                    "ap2ID": 112074
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 138000",
+                    "ap1ID": 151736,
+                    "ap2ID": 112074
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 678002",
+                    "ap1ID": 300583,
+                    "ap2ID": 112074
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 112074
                 }
             ],
             "fileTypeVersion": 1
