@@ -39,7 +39,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 260
+                            "ioValue": 300
                         },
                         {
                             "name": "T",
@@ -59,8 +59,8 @@
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 108,
-                    "y": 243,
+                    "x": 66,
+                    "y": 233,
                     "uniqueID": 398635,
                     "ioValues": []
                 },
@@ -105,7 +105,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 260
+                            "ioValue": 300
                         }
                     ],
                     "currentEquation": "W/2"
@@ -140,7 +140,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -156
                         },
                         {
                             "name": "yDist",
@@ -161,7 +161,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -156
                         },
                         {
                             "name": "yDist",
@@ -182,11 +182,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 150
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 130
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",
@@ -203,11 +203,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 150
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 130
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",
@@ -295,16 +295,16 @@
             ],
             "allConnectors": [
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "W",
-                    "ap1ID": 682063,
-                    "ap2ID": 432412
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 576250,
+                    "ap2ID": 802219
                 },
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "W",
-                    "ap1ID": 682063,
-                    "ap2ID": 576250
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 576250,
+                    "ap2ID": 664840
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -325,6 +325,18 @@
                     "ap2ID": 790707
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 398635,
+                    "ap2ID": 432412
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 398635,
+                    "ap2ID": 576250
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "Length",
                     "ap1ID": 790707,
@@ -338,15 +350,15 @@
                 },
                 {
                     "ap1Name": "result",
-                    "ap2Name": "yDist",
+                    "ap2Name": "xDist",
                     "ap1ID": 432412,
-                    "ap2ID": 151736
+                    "ap2ID": 300583
                 },
                 {
                     "ap1Name": "result",
-                    "ap2Name": "yDist",
+                    "ap2Name": "xDist",
                     "ap1ID": 432412,
-                    "ap2ID": 300583
+                    "ap2ID": 151736
                 },
                 {
                     "ap1Name": "geometry",
