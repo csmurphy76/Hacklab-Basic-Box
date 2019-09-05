@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Tabs",
-            "x": 522,
-            "y": 47,
+            "x": 481,
+            "y": 33,
             "uniqueID": 666773,
             "ioValues": [
                 {
@@ -490,23 +490,10 @@
                     "currentEquation": "H/2+50"
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 488,
-                    "y": 102,
-                    "uniqueID": 560063,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 6
-                        }
-                    ]
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Tabs",
-                    "x": 522,
-                    "y": 47,
+                    "x": 481,
+                    "y": 33,
                     "uniqueID": 666773,
                     "ioValues": [
                         {
@@ -520,6 +507,19 @@
                         {
                             "name": "Width",
                             "ioValue": 300
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 488,
+                    "y": 102,
+                    "uniqueID": 560063,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 6
                         }
                     ]
                 },
@@ -679,15 +679,15 @@
                     "ap2ID": 735901
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 608759",
-                    "ap1ID": 560063,
-                    "ap2ID": 522995
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 809646",
                     "ap1ID": 666773,
+                    "ap2ID": 522995
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 608759",
+                    "ap1ID": 560063,
                     "ap2ID": 522995
                 },
                 {
