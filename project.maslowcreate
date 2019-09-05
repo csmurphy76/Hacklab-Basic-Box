@@ -9,7 +9,7 @@
             "ioValues": [
                 {
                     "name": "Height",
-                    "ioValue": 360
+                    "ioValue": 260
                 },
                 {
                     "name": "Thickness",
@@ -25,8 +25,8 @@
                 {
                     "atomType": "Input",
                     "name": "Height",
-                    "x": 40,
-                    "y": 66,
+                    "x": 38,
+                    "y": 56,
                     "uniqueID": 682063,
                     "ioValues": []
                 },
@@ -87,7 +87,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 300
+                            "ioValue": 1
                         }
                     ],
                     "currentEquation": "W/2"
@@ -140,7 +140,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 150
+                            "ioValue": 0.5
                         },
                         {
                             "name": "zDist",
@@ -233,6 +233,7 @@
                 }
             ],
             "allConnectors": [
+                null,
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Material Thickness",
@@ -244,12 +245,6 @@
                     "ap2Name": "W",
                     "ap1ID": 398635,
                     "ap2ID": 790707
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "W",
-                    "ap1ID": 398635,
-                    "ap2ID": 432412
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -334,8 +329,8 @@
         {
             "atomType": "Molecule",
             "name": "Front",
-            "x": 190,
-            "y": 72,
+            "x": 183,
+            "y": 69,
             "uniqueID": 796098,
             "ioValues": [
                 {
@@ -355,26 +350,26 @@
             "allAtoms": [
                 {
                     "atomType": "Input",
-                    "name": "Width",
-                    "x": 39,
+                    "name": "Wood Thickness",
+                    "x": 55,
                     "y": 43,
+                    "uniqueID": 541949,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 37,
+                    "y": 104,
                     "uniqueID": 455842,
                     "ioValues": []
                 },
                 {
                     "atomType": "Input",
                     "name": "Height",
-                    "x": 44,
-                    "y": 137,
+                    "x": 39,
+                    "y": 174,
                     "uniqueID": 237680,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Wood Thickness",
-                    "x": 204,
-                    "y": 17,
-                    "uniqueID": 541949,
                     "ioValues": []
                 },
                 {
@@ -444,7 +439,7 @@
                     "ioValues": [
                         {
                             "name": "Height",
-                            "ioValue": 360
+                            "ioValue": 260
                         },
                         {
                             "name": "Thickness",
@@ -553,6 +548,18 @@
             "allConnectors": [
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap1ID": 541949,
+                    "ap2ID": 560063
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Thickness",
+                    "ap1ID": 541949,
+                    "ap2ID": 666773
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "x length",
                     "ap1ID": 455842,
                     "ap2ID": 854474
@@ -576,28 +583,16 @@
                     "ap2ID": 351355
                 },
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Height",
-                    "ap1ID": 237680,
-                    "ap2ID": 666773
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "height",
-                    "ap1ID": 541949,
-                    "ap2ID": 560063
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Thickness",
-                    "ap1ID": 541949,
-                    "ap2ID": 666773
-                },
-                {
                     "ap1Name": "result",
                     "ap2Name": "y length",
                     "ap1ID": 708501,
                     "ap2ID": 854474
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "Height",
+                    "ap1ID": 708501,
+                    "ap2ID": 666773
                 },
                 {
                     "ap1Name": "geometry",
@@ -1024,8 +1019,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Front",
-                    "x": 190,
-                    "y": 72,
+                    "x": 183,
+                    "y": 69,
                     "uniqueID": 796098,
                     "ioValues": [
                         {
