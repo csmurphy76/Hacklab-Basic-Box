@@ -1532,7 +1532,7 @@
                         },
                         {
                             "name": "t",
-                            "ioValue": 1
+                            "ioValue": 6
                         }
                     ],
                     "currentEquation": "W/2+t"
@@ -1634,7 +1634,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 151
+                            "ioValue": 156
                         },
                         {
                             "name": "zDist",
@@ -1831,7 +1831,12 @@
                     "ap1ID": 963365,
                     "ap2ID": 491444
                 },
-                null,
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "t",
+                    "ap1ID": 963365,
+                    "ap2ID": 355161
+                },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
