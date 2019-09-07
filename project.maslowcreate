@@ -463,8 +463,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 707,
-                    "y": 179,
+                    "x": 706,
+                    "y": 154,
                     "uniqueID": 151736,
                     "ioValues": [
                         {
@@ -477,15 +477,15 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 6
                         }
                     ]
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 705,
-                    "y": 290,
+                    "x": 714,
+                    "y": 288,
                     "uniqueID": 300583,
                     "ioValues": [
                         {
@@ -498,7 +498,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 6
                         }
                     ]
                 },
@@ -592,6 +592,18 @@
                     "ap2Name": "Material Thickness",
                     "ap1ID": 956603,
                     "ap2ID": 645958
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap1ID": 956603,
+                    "ap2ID": 151736
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap1ID": 956603,
+                    "ap2ID": 300583
                 },
                 {
                     "ap1Name": "Geometry",
@@ -712,8 +724,8 @@
         {
             "atomType": "Molecule",
             "name": "Bottom Tabs",
-            "x": 724,
-            "y": 194,
+            "x": 717,
+            "y": 198,
             "uniqueID": 433570,
             "ioValues": [],
             "topLevel": false,
@@ -912,8 +924,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bottom Tabs",
-                    "x": 724,
-                    "y": 194,
+                    "x": 717,
+                    "y": 198,
                     "uniqueID": 433570,
                     "ioValues": []
                 },
