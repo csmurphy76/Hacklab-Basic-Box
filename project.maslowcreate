@@ -303,8 +303,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Wood Tab",
-                    "x": 304,
-                    "y": 154,
+                    "x": 309,
+                    "y": 148,
                     "uniqueID": 645958,
                     "projectID": "206545509",
                     "ioValues": [
@@ -346,7 +346,7 @@
                             "ioValue": 60
                         }
                     ],
-                    "currentEquation": "H/2 - L"
+                    "currentEquation": "H/2.5 - L"
                 },
                 {
                     "atomType": "Rotate",
@@ -395,7 +395,7 @@
                             "ioValue": 260
                         }
                     ],
-                    "currentEquation": "H/-2"
+                    "currentEquation": "H/-2.5"
                 },
                 {
                     "atomType": "Rotate",
@@ -431,7 +431,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 70
+                            "ioValue": 44
                         },
                         {
                             "name": "zDist",
@@ -452,7 +452,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -130
+                            "ioValue": -104
                         },
                         {
                             "name": "zDist",
@@ -473,7 +473,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 70
+                            "ioValue": 44
                         },
                         {
                             "name": "zDist",
@@ -494,7 +494,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -130
+                            "ioValue": -104
                         },
                         {
                             "name": "zDist",
@@ -505,8 +505,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 1005,
-                    "y": 159,
+                    "x": 995,
+                    "y": 164,
                     "uniqueID": 112074,
                     "ioValues": [
                         {
