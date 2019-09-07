@@ -237,8 +237,8 @@
         {
             "atomType": "Molecule",
             "name": "Side Tabs",
-            "x": 481,
-            "y": 33,
+            "x": 472,
+            "y": 35,
             "uniqueID": 666773,
             "ioValues": [
                 {
@@ -488,8 +488,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 821,
-                    "y": 119,
+                    "x": 822,
+                    "y": 125,
                     "uniqueID": 112074,
                     "ioValues": [
                         {
@@ -517,7 +517,7 @@
                             "ioValue": 10
                         }
                     ],
-                    "removeCutawayGeometry": true
+                    "removeCutawayGeometry": false
                 },
                 {
                     "atomType": "Output",
@@ -823,8 +823,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Side Tabs",
-                    "x": 481,
-                    "y": 33,
+                    "x": 472,
+                    "y": 35,
                     "uniqueID": 666773,
                     "ioValues": [
                         {
@@ -870,12 +870,8 @@
                     "uniqueID": 522995,
                     "ioValues": [
                         {
-                            "name": "3D shape 218740",
+                            "name": "3D shape 696672",
                             "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 218740",
-                            "ioValue": 10
                         },
                         {
                             "name": "3D shape 809646",
@@ -887,6 +883,10 @@
                         },
                         {
                             "name": "3D shape 602790",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 696672",
                             "ioValue": 10
                         }
                     ],
