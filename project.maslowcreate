@@ -1733,16 +1733,8 @@
                     "uniqueID": 418462,
                     "ioValues": [
                         {
-                            "name": "3D shape 775881",
+                            "name": "3D shape 920040",
                             "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 775881",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 617069",
-                            "ioValue": 10
                         },
                         {
                             "name": "3D shape 679623",
@@ -1762,6 +1754,14 @@
                         },
                         {
                             "name": "3D shape 499378",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 121026",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 920040",
                             "ioValue": 10
                         }
                     ],
@@ -1946,12 +1946,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 617069",
-                    "ap1ID": 873090,
-                    "ap2ID": 418462
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 873090,
                     "ap2ID": 136233
@@ -1960,6 +1954,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 215290",
                     "ap1ID": 896000,
+                    "ap2ID": 418462
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 121026",
+                    "ap1ID": 136233,
                     "ap2ID": 418462
                 },
                 {
