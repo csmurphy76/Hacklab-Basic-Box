@@ -1506,8 +1506,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 211,
-                    "y": 157,
+                    "x": 202,
+                    "y": 159,
                     "uniqueID": 304980,
                     "ioValues": [
                         {
