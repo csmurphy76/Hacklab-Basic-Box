@@ -379,13 +379,9 @@
                         {
                             "name": "W",
                             "ioValue": 300
-                        },
-                        {
-                            "name": "T",
-                            "ioValue": 6
                         }
                     ],
-                    "currentEquation": "W/2+T"
+                    "currentEquation": "W/2"
                 },
                 {
                     "atomType": "Equation",
@@ -473,7 +469,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 156
+                            "ioValue": 150
                         },
                         {
                             "name": "yDist",
@@ -494,7 +490,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 156
+                            "ioValue": 150
                         },
                         {
                             "name": "yDist",
@@ -590,12 +586,6 @@
                     "ap2Name": "W",
                     "ap1ID": 398635,
                     "ap2ID": 975651
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "T",
-                    "ap1ID": 956603,
-                    "ap2ID": 432412
                 },
                 {
                     "ap1Name": "number or geometry",
