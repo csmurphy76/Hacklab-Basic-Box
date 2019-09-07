@@ -303,11 +303,15 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Wood Tab",
-                    "x": 299,
-                    "y": 127,
+                    "x": 310,
+                    "y": 141,
                     "uniqueID": 692659,
                     "projectID": "206545509",
                     "ioValues": [
+                        {
+                            "name": "Overcut Diameter",
+                            "ioValue": 10
+                        },
                         {
                             "name": "Material Thickness",
                             "ioValue": 6
@@ -370,6 +374,10 @@
                     "uniqueID": 780929,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -405,6 +413,10 @@
                     "uniqueID": 664840,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": -150
                         },
@@ -425,6 +437,10 @@
                     "y": 68,
                     "uniqueID": 802219,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": -150
@@ -447,6 +463,10 @@
                     "uniqueID": 151736,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 156
                         },
@@ -467,6 +487,10 @@
                     "y": 305,
                     "uniqueID": 300583,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 156
@@ -490,6 +514,22 @@
                     "ioValues": [
                         {
                             "name": "3D shape 523490",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 678002",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 138000",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 538036",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 398770",
                             "ioValue": ""
                         },
                         {
@@ -870,6 +910,10 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 809646",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 218740",
                             "ioValue": 10
                         },
@@ -904,6 +948,10 @@
                     "uniqueID": 572707,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "x-axis degrees",
                             "ioValue": 90
                         },
@@ -924,6 +972,10 @@
                     "y": 280,
                     "uniqueID": 735901,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -1566,6 +1618,10 @@
                     "uniqueID": 682444,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 235
                         },
@@ -1650,6 +1706,10 @@
                     "uniqueID": 873090,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": -235
                         },
@@ -1693,6 +1753,14 @@
                     "ioValues": [
                         {
                             "name": "3D shape 775881",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 617069",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 679623",
                             "ioValue": ""
                         },
                         {
