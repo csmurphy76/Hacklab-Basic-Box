@@ -79,7 +79,12 @@
                     "x": 437,
                     "y": 282,
                     "uniqueID": 949903,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "ShrinkWrap",
@@ -126,7 +131,12 @@
                     "x": 682,
                     "y": 218,
                     "uniqueID": 867744,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -166,8 +176,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 954,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -290,7 +300,12 @@
                     "x": 66,
                     "y": 233,
                     "uniqueID": 398635,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -298,7 +313,12 @@
                     "x": 163,
                     "y": 182,
                     "uniqueID": 956603,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -328,7 +348,12 @@
                     "x": 271,
                     "y": 253,
                     "uniqueID": 682063,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -503,27 +528,12 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 954,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 995,
                     "y": 164,
                     "uniqueID": 112074,
                     "ioValues": [
-                        {
-                            "name": "3D shape 138000",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 138000",
-                            "ioValue": 10
-                        },
                         {
                             "name": "3D shape 523490",
                             "ioValue": 10
@@ -542,6 +552,13 @@
                         }
                     ],
                     "removeCutawayGeometry": false
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -733,8 +750,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 954,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -769,7 +786,12 @@
                     "x": 55,
                     "y": 43,
                     "uniqueID": 541949,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -777,7 +799,12 @@
                     "x": 37,
                     "y": 104,
                     "uniqueID": 455842,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -785,7 +812,12 @@
                     "x": 39,
                     "y": 174,
                     "uniqueID": 237680,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -899,14 +931,6 @@
                     "uniqueID": 522995,
                     "ioValues": [
                         {
-                            "name": "3D shape 913560",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 913560",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 392038",
                             "ioValue": 10
                         },
@@ -951,13 +975,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 954,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1170,
@@ -977,6 +994,13 @@
                             "ioValue": 230
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -1124,7 +1148,12 @@
                     "x": 35,
                     "y": 30,
                     "uniqueID": 505644,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -1132,7 +1161,12 @@
                     "x": 40,
                     "y": 176,
                     "uniqueID": 392427,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
@@ -1157,7 +1191,12 @@
                     "x": 403,
                     "y": 42,
                     "uniqueID": 516161,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1231,8 +1270,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 954,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -1321,7 +1360,12 @@
                     "x": 39,
                     "y": 64,
                     "uniqueID": 449322,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -1329,7 +1373,12 @@
                     "x": 30,
                     "y": 146,
                     "uniqueID": 464571,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -1337,7 +1386,12 @@
                     "x": 38,
                     "y": 246,
                     "uniqueID": 449628,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rectangle",
@@ -1372,8 +1426,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 954,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -1442,7 +1496,12 @@
                     "x": 33,
                     "y": 54,
                     "uniqueID": 346565,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -1450,7 +1509,12 @@
                     "x": 36,
                     "y": 123,
                     "uniqueID": 964257,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1472,7 +1536,12 @@
                     "x": 37,
                     "y": 190,
                     "uniqueID": 160839,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -1501,7 +1570,12 @@
                     "x": 31,
                     "y": 253,
                     "uniqueID": 963365,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1733,14 +1807,6 @@
                     "uniqueID": 418462,
                     "ioValues": [
                         {
-                            "name": "3D shape 920040",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 920040",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 679623",
                             "ioValue": 10
                         },
@@ -1770,8 +1836,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 954,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
