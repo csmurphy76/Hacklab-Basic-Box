@@ -1834,6 +1834,22 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "CutList",
+                    "name": "Add To Cutlist",
+                    "x": 877,
+                    "y": 230,
+                    "uniqueID": 388743,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Cut Layout",
+                    "name": "Cut Layout",
+                    "x": 1032,
+                    "y": 228,
+                    "uniqueID": 692805,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -2032,7 +2048,14 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 418462
-                }
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 418462,
+                    "ap2ID": 388743
+                },
+                null
             ],
             "fileTypeVersion": 1
         }
