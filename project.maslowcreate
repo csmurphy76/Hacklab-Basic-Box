@@ -1240,10 +1240,18 @@
                     ]
                 },
                 {
+                    "atomType": "CutList",
+                    "name": "Add To Cutlist",
+                    "x": 651,
+                    "y": 87,
+                    "uniqueID": 647617,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 644,
-                    "y": 178,
+                    "x": 792,
+                    "y": 140,
                     "uniqueID": 798007,
                     "ioValues": [
                         {
@@ -1263,8 +1271,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 777,
-                    "y": 233,
+                    "x": 839,
+                    "y": 270,
                     "uniqueID": 806172,
                     "ioValues": [
                         {
@@ -1330,6 +1338,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 586277,
+                    "ap2ID": 647617
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 647617,
                     "ap2ID": 798007
                 },
                 {
@@ -1438,6 +1452,14 @@
                     ]
                 },
                 {
+                    "atomType": "CutList",
+                    "name": "Add To Cutlist",
+                    "x": 764,
+                    "y": 175,
+                    "uniqueID": 534452,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -1472,8 +1494,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 315730,
+                    "ap2ID": 534452
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 315730
+                    "ap1ID": 534452
                 }
             ],
             "fileTypeVersion": 1
@@ -1806,14 +1834,6 @@
                     ]
                 },
                 {
-                    "atomType": "CutAway",
-                    "name": "Cut Away",
-                    "x": 692,
-                    "y": 71,
-                    "uniqueID": 136233,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 828,
@@ -1841,7 +1861,7 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 121026",
+                            "name": "3D shape 962430",
                             "ioValue": 10
                         }
                     ],
@@ -1853,7 +1873,20 @@
                     "x": 1032,
                     "y": 228,
                     "uniqueID": 692805,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Spacing",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "Sheet Width",
+                            "ioValue": 50
+                        },
+                        {
+                            "name": "Sheet Length",
+                            "ioValue": 50
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -2034,20 +2067,14 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
+                    "ap2Name": "3D shape 962430",
                     "ap1ID": 873090,
-                    "ap2ID": 136233
+                    "ap2ID": 418462
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 215290",
                     "ap1ID": 896000,
-                    "ap2ID": 418462
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 121026",
-                    "ap1ID": 136233,
                     "ap2ID": 418462
                 },
                 {
