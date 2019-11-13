@@ -1838,8 +1838,8 @@
                 {
                     "atomType": "Cut Layout",
                     "name": "Cut Layout",
-                    "x": 1032,
-                    "y": 228,
+                    "x": 942,
+                    "y": 232,
                     "uniqueID": 692805,
                     "ioValues": [
                         {
@@ -1855,6 +1855,14 @@
                             "ioValue": 500
                         }
                     ]
+                },
+                {
+                    "atomType": "Svg",
+                    "name": "Svg",
+                    "x": 1142,
+                    "y": 252,
+                    "uniqueID": 111004,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -2055,6 +2063,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 418462,
                     "ap2ID": 692805
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 692805,
+                    "ap2ID": 111004
                 }
             ],
             "fileTypeVersion": 1
