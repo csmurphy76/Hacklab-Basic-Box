@@ -19,9 +19,6 @@
 ## Wood Tab
 
 
-## Bottom Tabs
-
-
 ## Side
 
 

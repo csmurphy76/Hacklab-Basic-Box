@@ -21,8 +21,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 267,
-                    "y": 110,
+                    "x": 149,
+                    "y": 91,
                     "uniqueID": 692833,
                     "ioValues": [
                         {
@@ -34,8 +34,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 399,
-                    "y": 62,
+                    "x": 328,
+                    "y": 43,
                     "uniqueID": 835833,
                     "ioValues": [
                         {
@@ -55,8 +55,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 430,
-                    "y": 193,
+                    "x": 326,
+                    "y": 157,
                     "uniqueID": 687663,
                     "ioValues": [
                         {
@@ -74,23 +74,10 @@
                     ]
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Thickness",
-                    "x": 437,
-                    "y": 282,
-                    "uniqueID": 949903,
-                    "ioValues": [
-                        {
-                            "name": "default value",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "ShrinkWrap",
                     "name": "Shrink Wrap",
-                    "x": 525,
-                    "y": 97,
+                    "x": 474,
+                    "y": 106,
                     "uniqueID": 611771,
                     "ioValues": [
                         {
@@ -113,10 +100,23 @@
                     "closedSelection": 0
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Thickness",
+                    "x": 437,
+                    "y": 282,
+                    "uniqueID": 949903,
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 690,
-                    "y": 81,
+                    "x": 642,
+                    "y": 82,
                     "uniqueID": 191609,
                     "ioValues": [
                         {
@@ -128,8 +128,8 @@
                 {
                     "atomType": "Input",
                     "name": "Height",
-                    "x": 682,
-                    "y": 218,
+                    "x": 599,
+                    "y": 274,
                     "uniqueID": 867744,
                     "ioValues": [
                         {
@@ -141,8 +141,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 801,
-                    "y": 234,
+                    "x": 727,
+                    "y": 202,
                     "uniqueID": 828878,
                     "ioValues": [
                         {
@@ -155,8 +155,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 891,
-                    "y": 146,
+                    "x": 847,
+                    "y": 98,
                     "uniqueID": 823127,
                     "ioValues": [
                         {
@@ -207,15 +207,15 @@
                     "ap2ID": 611771
                 },
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "height",
-                    "ap1ID": 949903,
-                    "ap2ID": 191609
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 611771,
+                    "ap2ID": 191609
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap1ID": 949903,
                     "ap2ID": 191609
                 },
                 {
@@ -740,26 +740,6 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Bottom Tabs",
-            "x": 717,
-            "y": 198,
-            "uniqueID": 433570,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Front",
             "x": 183,
             "y": 69,
@@ -916,14 +896,6 @@
                     ]
                 },
                 {
-                    "atomType": "CutAway",
-                    "name": "Cut Away",
-                    "x": 573,
-                    "y": 208,
-                    "uniqueID": 694140,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 650,
@@ -935,10 +907,6 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 452501",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 542011",
                             "ioValue": 10
                         }
@@ -946,11 +914,11 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Bottom Tabs",
-                    "x": 717,
-                    "y": 198,
-                    "uniqueID": 433570,
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 707,
+                    "y": 193,
+                    "uniqueID": 990084,
                     "ioValues": []
                 },
                 {
@@ -1086,9 +1054,9 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
+                    "ap2Name": "geometry2",
                     "ap1ID": 207912,
-                    "ap2ID": 694140
+                    "ap2ID": 990084
                 },
                 {
                     "ap1Name": "Geometry",
@@ -1104,15 +1072,15 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 452501",
-                    "ap1ID": 694140,
-                    "ap2ID": 522995
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 522995,
                     "ap2ID": 371392
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": 522995,
+                    "ap2ID": 990084
                 },
                 {
                     "ap1Name": "geometry",
@@ -1794,8 +1762,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 514,
-                    "y": 105,
+                    "x": 513,
+                    "y": 122,
                     "uniqueID": 873090,
                     "ioValues": [
                         {
@@ -1876,15 +1844,15 @@
                     "ioValues": [
                         {
                             "name": "Spacing",
-                            "ioValue": 5
+                            "ioValue": 1
                         },
                         {
                             "name": "Sheet Width",
-                            "ioValue": 50
+                            "ioValue": 5
                         },
                         {
                             "name": "Sheet Length",
-                            "ioValue": 50
+                            "ioValue": 500
                         }
                     ]
                 },
