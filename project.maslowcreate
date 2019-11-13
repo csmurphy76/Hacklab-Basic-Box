@@ -954,10 +954,18 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "CutList",
+                    "name": "Add To Cutlist",
+                    "x": 793,
+                    "y": 97,
+                    "uniqueID": 371392,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 797,
-                    "y": 78,
+                    "x": 923,
+                    "y": 74,
                     "uniqueID": 572707,
                     "ioValues": [
                         {
@@ -1104,6 +1112,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 522995,
+                    "ap2ID": 371392
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 371392,
                     "ap2ID": 572707
                 },
                 {
@@ -1834,14 +1848,6 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "CutList",
-                    "name": "Add To Cutlist",
-                    "x": 877,
-                    "y": 230,
-                    "uniqueID": 388743,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Cut Layout",
                     "name": "Cut Layout",
                     "x": 1032,
@@ -2053,9 +2059,8 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 418462,
-                    "ap2ID": 388743
-                },
-                null
+                    "ap2ID": 692805
+                }
             ],
             "fileTypeVersion": 1
         }
