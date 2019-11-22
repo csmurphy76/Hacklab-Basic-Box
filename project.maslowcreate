@@ -134,8 +134,8 @@
         {
             "atomType": "Molecule",
             "name": "Front",
-            "x": 255,
-            "y": 97,
+            "x": 249,
+            "y": 91,
             "uniqueID": 796098,
             "ioValues": [
                 {
@@ -169,8 +169,8 @@
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 38,
-                    "y": 225,
+                    "x": 53,
+                    "y": 130,
                     "uniqueID": 455842,
                     "ioValues": [
                         {
@@ -323,6 +323,27 @@
                     ]
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 601,
+                    "y": 259,
+                    "uniqueID": 250504,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 30
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 755,
@@ -444,9 +465,9 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "geometry2",
+                    "ap2Name": "geometry",
                     "ap1ID": 769733,
-                    "ap2ID": 717407
+                    "ap2ID": 250504
                 },
                 {
                     "ap1Name": "geometry",
@@ -477,6 +498,12 @@
                     "ap2Name": "3D shape 385416",
                     "ap1ID": 920421,
                     "ap2ID": 474807
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 250504,
+                    "ap2ID": 717407
                 },
                 {
                     "ap1Name": "geometry",
@@ -526,6 +553,10 @@
                 {
                     "name": "Wood Thickness",
                     "ioValue": 6
+                },
+                {
+                    "name": "Input693903",
+                    "ioValue": 30
                 }
             ],
             "topLevel": true,
@@ -560,7 +591,7 @@
                     "atomType": "Input",
                     "name": "Depth",
                     "x": 37,
-                    "y": 190,
+                    "y": 183,
                     "uniqueID": 160839,
                     "ioValues": [
                         {
@@ -583,10 +614,24 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 255,
+                    "y": 42,
+                    "uniqueID": 432026,
+                    "ioValues": [
+                        {
+                            "name": "D",
+                            "ioValue": 520
+                        }
+                    ],
+                    "currentEquation": "D/-2"
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Front",
-                    "x": 255,
-                    "y": 97,
+                    "x": 249,
+                    "y": 91,
                     "uniqueID": 796098,
                     "ioValues": [
                         {
@@ -602,6 +647,114 @@
                             "ioValue": 360
                         }
                     ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 246,
+                    "y": 141,
+                    "uniqueID": 632229,
+                    "ioValues": [
+                        {
+                            "name": "D",
+                            "ioValue": 520
+                        }
+                    ],
+                    "currentEquation": "D/2"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input693903",
+                    "x": 277,
+                    "y": 260,
+                    "uniqueID": 147736,
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 30
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 388,
+                    "y": 85,
+                    "uniqueID": 543321,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 533,
+                    "y": 41,
+                    "uniqueID": 363297,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -260
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 532,
+                    "y": 120,
+                    "uniqueID": 975087,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 260
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 828,
+                    "y": 75,
+                    "uniqueID": 772159,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 392628",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 545822",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "CutLayout",
@@ -655,9 +808,74 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "D",
+                    "ap1ID": 160839,
+                    "ap2ID": 632229
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "D",
+                    "ap1ID": 160839,
+                    "ap2ID": 432026
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "Wood Thickness",
                     "ap1ID": 963365,
                     "ap2ID": 796098
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 432026,
+                    "ap2ID": 363297
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 796098,
+                    "ap2ID": 543321
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 632229,
+                    "ap2ID": 975087
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 543321,
+                    "ap2ID": 363297
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 543321,
+                    "ap2ID": 975087
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 545822",
+                    "ap1ID": 363297,
+                    "ap2ID": 772159
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 392628",
+                    "ap1ID": 975087,
+                    "ap2ID": 772159
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 772159
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 772159,
+                    "ap2ID": 735895
                 },
                 {
                     "ap1Name": "geometry",
