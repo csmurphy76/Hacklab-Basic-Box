@@ -177,7 +177,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 155.5,
                     "ioValues": []
                 }
             ],
@@ -557,7 +557,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 155.5,
                     "ioValues": []
                 }
             ],
@@ -975,7 +975,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 155.5,
                     "ioValues": []
                 }
             ],
@@ -1261,7 +1261,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 155.5,
                     "ioValues": []
                 }
             ],
@@ -1332,7 +1332,7 @@
             "atomType": "Molecule",
             "name": "Bottom",
             "x": 206,
-            "y": 296,
+            "y": 286.9846153846154,
             "uniqueID": 491444,
             "ioValues": [
                 {
@@ -1431,7 +1431,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 155.5,
                     "ioValues": []
                 }
             ],
@@ -1658,7 +1658,7 @@
                     "atomType": "Molecule",
                     "name": "Bottom",
                     "x": 206,
-                    "y": 296,
+                    "y": 286.9846153846154,
                     "uniqueID": 491444,
                     "ioValues": [
                         {
@@ -1847,7 +1847,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 155.5,
                     "ioValues": []
                 }
             ],
