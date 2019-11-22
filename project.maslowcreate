@@ -2,9 +2,9 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 251,
-            "y": 285,
+            "name": "Handle",
+            "x": 269,
+            "y": 276,
             "uniqueID": 769733,
             "ioValues": [],
             "topLevel": false,
@@ -65,40 +65,36 @@
                     ]
                 },
                 {
-                    "atomType": "Union",
-                    "name": "Union",
-                    "x": 541,
+                    "atomType": "ShrinkWrap",
+                    "name": "Shrink Wrap",
+                    "x": 533,
                     "y": 122,
-                    "uniqueID": 411561,
+                    "uniqueID": 720248,
                     "ioValues": [
                         {
-                            "name": "geometry1",
+                            "name": "3D shape 454994",
                             "ioValue": ""
                         },
                         {
-                            "name": "geometry2",
-                            "ioValue": ""
-                        }
-                    ]
-                },
-                {
-                    "atomType": "ExtractTag",
-                    "name": "Extract Tag",
-                    "x": 711,
-                    "y": 164,
-                    "uniqueID": 313644,
-                    "ioValues": [
+                            "name": "3D shape 981083",
+                            "ioValue": 10
+                        },
                         {
-                            "name": "tag",
-                            "ioValue": "Tag String"
+                            "name": "3D shape 954485",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 454994",
+                            "ioValue": 10
                         }
-                    ]
+                    ],
+                    "closedSelection": 0
                 },
                 {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -114,6 +110,23 @@
                     "ap2Name": "geometry",
                     "ap1ID": 334715,
                     "ap2ID": 249727
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 954485",
+                    "ap1ID": 249727,
+                    "ap2ID": 720248
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 981083",
+                    "ap1ID": 980987,
+                    "ap2ID": 720248
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 720248
                 }
             ],
             "fileTypeVersion": 1
@@ -121,8 +134,8 @@
         {
             "atomType": "Molecule",
             "name": "Front",
-            "x": 249,
-            "y": 117,
+            "x": 255,
+            "y": 97,
             "uniqueID": 796098,
             "ioValues": [
                 {
@@ -230,9 +243,9 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 251,
-                    "y": 285,
+                    "name": "Handle",
+                    "x": 269,
+                    "y": 276,
                     "uniqueID": 769733,
                     "ioValues": []
                 },
@@ -332,6 +345,14 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 834,
+                    "y": 196,
+                    "uniqueID": 717407,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 916,
@@ -356,7 +377,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -422,6 +443,12 @@
                     "ap2ID": 876058
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 769733,
+                    "ap2ID": 717407
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 224454,
@@ -453,8 +480,14 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
+                    "ap2Name": "geometry1",
                     "ap1ID": 474807,
+                    "ap2ID": 717407
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 717407,
                     "ap2ID": 254161
                 },
                 {
@@ -552,8 +585,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Front",
-                    "x": 249,
-                    "y": 117,
+                    "x": 255,
+                    "y": 97,
                     "uniqueID": 796098,
                     "ioValues": [
                         {
@@ -603,7 +636,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
