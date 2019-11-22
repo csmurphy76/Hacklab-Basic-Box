@@ -10,18 +10,3 @@
 ## Front
 
 
-## Handle
-
-
-## Side Tabs
-
-
-## Wood Tab
-
-
-## Side
-
-
-## Bottom
-
-
