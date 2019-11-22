@@ -1844,15 +1844,15 @@
                     "ioValues": [
                         {
                             "name": "Spacing",
-                            "ioValue": 5
+                            "ioValue": 25
                         },
                         {
                             "name": "Sheet Width",
-                            "ioValue": 50
+                            "ioValue": 2000
                         },
                         {
                             "name": "Sheet Length",
-                            "ioValue": 50
+                            "ioValue": 500
                         }
                     ]
                 },
