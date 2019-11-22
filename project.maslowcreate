@@ -901,10 +901,6 @@
                 {
                     "name": "Thickness",
                     "ioValue": 6
-                },
-                {
-                    "name": "Height",
-                    "ioValue": 360
                 }
             ],
             "topLevel": false,
@@ -928,19 +924,6 @@
                     "x": 49,
                     "y": 101,
                     "uniqueID": 529599,
-                    "ioValues": [
-                        {
-                            "name": "default value",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Height",
-                    "x": 50,
-                    "y": 145,
-                    "uniqueID": 575977,
                     "ioValues": [
                         {
                             "name": "default value",
@@ -1257,7 +1240,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
+            "name": "Bottoms",
             "x": 250,
             "y": 245,
             "uniqueID": 953631,
@@ -1287,19 +1270,6 @@
                     "x": 70,
                     "y": 61,
                     "uniqueID": 639147,
-                    "ioValues": [
-                        {
-                            "name": "default value",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Height",
-                    "x": 71,
-                    "y": 101,
-                    "uniqueID": 576443,
                     "ioValues": [
                         {
                             "name": "default value",
@@ -1351,12 +1321,49 @@
                         {
                             "name": "Thickness",
                             "ioValue": 6
-                        },
-                        {
-                            "name": "Height",
-                            "ioValue": 360
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Height",
+                    "x": 121,
+                    "y": 265,
+                    "uniqueID": 576443,
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 269,
+                    "y": 172,
+                    "uniqueID": 796061,
+                    "ioValues": [
+                        {
+                            "name": "H",
+                            "ioValue": 360
+                        }
+                    ],
+                    "currentEquation": "H*-.25"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 267,
+                    "y": 238,
+                    "uniqueID": 751081,
+                    "ioValues": [
+                        {
+                            "name": "H",
+                            "ioValue": 360
+                        }
+                    ],
+                    "currentEquation": "H/-2"
                 },
                 {
                     "atomType": "Translate",
@@ -1375,7 +1382,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 60
+                            "ioValue": -90
                         }
                     ]
                 },
@@ -1396,7 +1403,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -50
+                            "ioValue": -180
                         }
                     ]
                 },
@@ -1435,12 +1442,6 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "Height",
-                    "ap1ID": 576443,
-                    "ap2ID": 117537
-                },
-                {
-                    "ap1Name": "number or geometry",
                     "ap2Name": "Width",
                     "ap1ID": 390362,
                     "ap2ID": 117537
@@ -1462,6 +1463,30 @@
                     "ap2Name": "geometry",
                     "ap1ID": 117537,
                     "ap2ID": 840269
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "H",
+                    "ap1ID": 576443,
+                    "ap2ID": 751081
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "H",
+                    "ap1ID": 576443,
+                    "ap2ID": 796061
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap1ID": 796061,
+                    "ap2ID": 840269
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap1ID": 751081,
+                    "ap2ID": 690413
                 },
                 {
                     "ap1Name": "geometry",
@@ -1637,7 +1662,7 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Molecule",
+                    "name": "Bottoms",
                     "x": 250,
                     "y": 245,
                     "uniqueID": 953631,
