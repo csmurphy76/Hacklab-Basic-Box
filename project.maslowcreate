@@ -1960,10 +1960,6 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 734597",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 844326",
                             "ioValue": 10
                         }
@@ -1987,7 +1983,7 @@
                         },
                         {
                             "name": "Sheet Length",
-                            "ioValue": 500
+                            "ioValue": 5000
                         }
                     ]
                 },
@@ -2117,12 +2113,6 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 199101",
                     "ap1ID": 231571,
-                    "ap2ID": 772159
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 734597",
-                    "ap1ID": 953631,
                     "ap2ID": 772159
                 },
                 {
