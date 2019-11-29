@@ -848,22 +848,9 @@
             "allAtoms": [
                 {
                     "atomType": "Input",
-                    "name": "Height",
-                    "x": 57,
-                    "y": 120,
-                    "uniqueID": 723694,
-                    "ioValues": [
-                        {
-                            "name": "default value",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Input",
                     "name": "Thickness",
-                    "x": 215,
-                    "y": 55,
+                    "x": 14,
+                    "y": 68,
                     "uniqueID": 510912,
                     "ioValues": [
                         {
@@ -874,10 +861,36 @@
                 },
                 {
                     "atomType": "Input",
+                    "name": "Height",
+                    "x": 10,
+                    "y": 130,
+                    "uniqueID": 723694,
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
                     "name": "Depth",
-                    "x": 64,
-                    "y": 232,
+                    "x": 15,
+                    "y": 207,
                     "uniqueID": 942276,
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Width",
+                    "x": 15,
+                    "y": 256,
+                    "uniqueID": 934554,
                     "ioValues": [
                         {
                             "name": "default value",
@@ -899,19 +912,6 @@
                         {
                             "name": "y length",
                             "ioValue": 520
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Width",
-                    "x": 289,
-                    "y": 252,
-                    "uniqueID": 934554,
-                    "ioValues": [
-                        {
-                            "name": "default value",
-                            "ioValue": 10
                         }
                     ]
                 },
@@ -1060,12 +1060,6 @@
             "allConnectors": [
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "x length",
-                    "ap1ID": 723694,
-                    "ap2ID": 989306
-                },
-                {
-                    "ap1Name": "number or geometry",
                     "ap2Name": "height",
                     "ap1ID": 510912,
                     "ap2ID": 531413
@@ -1078,15 +1072,15 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "y length",
-                    "ap1ID": 942276,
+                    "ap2Name": "x length",
+                    "ap1ID": 723694,
                     "ap2ID": 989306
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 989306,
-                    "ap2ID": 531413
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap1ID": 942276,
+                    "ap2ID": 989306
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -1099,6 +1093,12 @@
                     "ap2Name": "W",
                     "ap1ID": 934554,
                     "ap2ID": 397758
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 989306,
+                    "ap2ID": 531413
                 },
                 {
                     "ap1Name": "geometry",
