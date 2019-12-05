@@ -1912,6 +1912,14 @@
                     ]
                 },
                 {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 433,
+                    "y": 99,
+                    "uniqueID": 789072,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 544,
@@ -1933,15 +1941,11 @@
                     "uniqueID": 772159,
                     "ioValues": [
                         {
-                            "name": "3D shape 844326",
+                            "name": "3D shape 579352",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 679320",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 263913",
+                            "name": "3D shape 411823",
                             "ioValue": 10
                         }
                     ],
@@ -1964,7 +1968,7 @@
                         },
                         {
                             "name": "Sheet Length",
-                            "ioValue": 2000
+                            "ioValue": 1000
                         }
                     ]
                 },
@@ -2099,24 +2103,31 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 844326",
-                    "ap2Primary": false,
-                    "ap1ID": 796098,
-                    "ap2ID": 772159
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 679320",
+                    "ap2Name": "3D shape 579352",
                     "ap2Primary": false,
                     "ap1ID": 231571,
                     "ap2ID": 772159
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 263913",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 231571,
+                    "ap2ID": 789072
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 411823",
                     "ap2Primary": false,
                     "ap1ID": 953631,
                     "ap2ID": 772159
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 953631,
+                    "ap2ID": 789072
                 },
                 {
                     "ap1Name": "result",
