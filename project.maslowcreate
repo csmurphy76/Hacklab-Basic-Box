@@ -1935,6 +1935,14 @@
                         {
                             "name": "3D shape 844326",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 679320",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 263913",
+                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
@@ -1948,7 +1956,7 @@
                     "ioValues": [
                         {
                             "name": "Spacing",
-                            "ioValue": 25
+                            "ioValue": 1
                         },
                         {
                             "name": "Sheet Width",
@@ -1956,7 +1964,7 @@
                         },
                         {
                             "name": "Sheet Length",
-                            "ioValue": 5000
+                            "ioValue": 2000
                         }
                     ]
                 },
@@ -2094,6 +2102,20 @@
                     "ap2Name": "3D shape 844326",
                     "ap2Primary": false,
                     "ap1ID": 796098,
+                    "ap2ID": 772159
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 679320",
+                    "ap2Primary": false,
+                    "ap1ID": 231571,
+                    "ap2ID": 772159
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 263913",
+                    "ap2Primary": false,
+                    "ap1ID": 953631,
                     "ap2ID": 772159
                 },
                 {
