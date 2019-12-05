@@ -1653,7 +1653,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 30
                         },
                         {
                             "name": "yDist",
@@ -1920,6 +1920,14 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Intersection",
+                    "name": "Intersection",
+                    "x": 453,
+                    "y": 263,
+                    "uniqueID": 146754,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 544,
@@ -2110,10 +2118,17 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "geometry1",
+                    "ap2Name": "geometry2",
                     "ap2Primary": false,
                     "ap1ID": 231571,
                     "ap2ID": 789072
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 231571,
+                    "ap2ID": 146754
                 },
                 {
                     "ap1Name": "Geometry",
@@ -2124,10 +2139,17 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "geometry2",
+                    "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": 953631,
                     "ap2ID": 789072
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 953631,
+                    "ap2ID": 146754
                 },
                 {
                     "ap1Name": "result",
