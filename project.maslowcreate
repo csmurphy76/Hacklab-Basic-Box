@@ -596,8 +596,8 @@
         {
             "atomType": "Molecule",
             "name": "Front and Back",
-            "x": 257,
-            "y": 73,
+            "x": 262,
+            "y": 81,
             "uniqueID": 796098,
             "ioValues": [
                 {
@@ -615,6 +615,10 @@
                 {
                     "name": "Depth",
                     "ioValue": 520
+                },
+                {
+                    "name": "Lower Box Height",
+                    "ioValue": 10
                 }
             ],
             "topLevel": false,
@@ -649,6 +653,14 @@
                     "x": 15,
                     "y": 206,
                     "uniqueID": 939117,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Lower Box Height",
+                    "x": 15,
+                    "y": 249,
+                    "uniqueID": 173463,
                     "ioValues": []
                 },
                 {
@@ -699,6 +711,24 @@
                         }
                     ],
                     "currentEquation": "D/-2 + 15"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 278,
+                    "y": 274,
+                    "uniqueID": 987700,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 1
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 1
+                        }
+                    ],
+                    "currentEquation": "x + y"
                 },
                 {
                     "atomType": "Rotate",
@@ -1899,10 +1929,18 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Lower Box Height",
+                    "x": 15,
+                    "y": 272,
+                    "uniqueID": 430214,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Front and Back",
-                    "x": 257,
-                    "y": 73,
+                    "x": 262,
+                    "y": 81,
                     "uniqueID": 796098,
                     "ioValues": [
                         {
@@ -1920,16 +1958,12 @@
                         {
                             "name": "Depth",
                             "ioValue": 520
+                        },
+                        {
+                            "name": "Lower Box Height",
+                            "ioValue": 10
                         }
                     ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Lower Box Height",
-                    "x": 15,
-                    "y": 272,
-                    "uniqueID": 430214,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
