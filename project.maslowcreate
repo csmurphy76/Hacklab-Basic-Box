@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Panel",
-            "x": 242,
-            "y": 134,
+            "x": 239,
+            "y": 127,
             "uniqueID": 323328,
             "ioValues": [
                 {
@@ -339,7 +339,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -538,8 +538,8 @@
         {
             "atomType": "Molecule",
             "name": "Front and Back",
-            "x": 262,
-            "y": 98,
+            "x": 259,
+            "y": 90,
             "uniqueID": 796098,
             "ioValues": [
                 {
@@ -586,18 +586,10 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Depth",
-                    "x": 15,
-                    "y": 272,
-                    "uniqueID": 939117,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Panel",
-                    "x": 242,
-                    "y": 134,
+                    "x": 239,
+                    "y": 127,
                     "uniqueID": 323328,
                     "ioValues": [
                         {
@@ -613,6 +605,14 @@
                             "ioValue": 6
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Depth",
+                    "x": 15,
+                    "y": 272,
+                    "uniqueID": 939117,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Equation",
@@ -727,7 +727,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -754,6 +754,13 @@
                     "ap2ID": 323328
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 323328,
+                    "ap2ID": 459720
+                },
+                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "D",
                     "ap2Primary": false,
@@ -766,13 +773,6 @@
                     "ap2Primary": false,
                     "ap1ID": 939117,
                     "ap2ID": 593378
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 323328,
-                    "ap2ID": 459720
                 },
                 {
                     "ap1Name": "result",
@@ -1038,7 +1038,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -1376,7 +1376,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -1519,8 +1519,8 @@
         {
             "atomType": "Molecule",
             "name": "Bottoms",
-            "x": 250,
-            "y": 245,
+            "x": 244,
+            "y": 243,
             "uniqueID": 953631,
             "ioValues": [
                 {
@@ -1653,7 +1653,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 30
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
@@ -1687,7 +1687,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -1839,8 +1839,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Front and Back",
-                    "x": 262,
-                    "y": 98,
+                    "x": 259,
+                    "y": 90,
                     "uniqueID": 796098,
                     "ioValues": [
                         {
@@ -1889,8 +1889,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bottoms",
-                    "x": 250,
-                    "y": 245,
+                    "x": 244,
+                    "y": 243,
                     "uniqueID": 953631,
                     "ioValues": [
                         {
@@ -1910,22 +1910,6 @@
                             "ioValue": 360
                         }
                     ]
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 433,
-                    "y": 99,
-                    "uniqueID": 789072,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Intersection",
-                    "name": "Intersection",
-                    "x": 453,
-                    "y": 263,
-                    "uniqueID": 146754,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Equation",
@@ -1954,6 +1938,10 @@
                         },
                         {
                             "name": "3D shape 411823",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 828668",
                             "ioValue": 10
                         }
                     ],
@@ -2013,7 +2001,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 163.5,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -2111,6 +2099,13 @@
                 },
                 {
                     "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 828668",
+                    "ap2Primary": false,
+                    "ap1ID": 796098,
+                    "ap2ID": 772159
+                },
+                {
+                    "ap1Name": "Geometry",
                     "ap2Name": "3D shape 579352",
                     "ap2Primary": false,
                     "ap1ID": 231571,
@@ -2118,38 +2113,10 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": 231571,
-                    "ap2ID": 789072
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": 231571,
-                    "ap2ID": 146754
-                },
-                {
-                    "ap1Name": "Geometry",
                     "ap2Name": "3D shape 411823",
                     "ap2Primary": false,
                     "ap1ID": 953631,
                     "ap2ID": 772159
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 953631,
-                    "ap2ID": 789072
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 953631,
-                    "ap2ID": 146754
                 },
                 {
                     "ap1Name": "result",
