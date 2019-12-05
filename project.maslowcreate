@@ -8,32 +8,21 @@
             "uniqueID": 651339,
             "ioValues": [
                 {
-                    "name": "Height",
-                    "ioValue": 254
-                },
-                {
-                    "name": "Width",
-                    "ioValue": 300
-                },
-                {
                     "name": "Thickness",
                     "ioValue": 6
+                },
+                {
+                    "name": "Height",
+                    "ioValue": 10
                 }
             ],
             "topLevel": false,
             "allAtoms": [
                 {
                     "atomType": "Input",
-                    "name": "Height",
+                    "name": "Thickness",
                     "x": 15,
-                    "y": 68,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Width",
-                    "x": 15,
-                    "y": 124,
+                    "y": 187,
                     "ioValues": []
                 },
                 {
@@ -45,7 +34,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 254
+                            "ioValue": 6
                         },
                         {
                             "name": "T",
@@ -56,9 +45,10 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "Thickness",
+                    "name": "Height",
                     "x": 15,
-                    "y": 233,
+                    "y": 236,
+                    "uniqueID": 523488,
                     "ioValues": []
                 },
                 {
@@ -70,7 +60,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 300
+                            "ioValue": 6
                         }
                     ],
                     "currentEquation": "W/4"
@@ -84,7 +74,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 75
+                            "ioValue": 1.5
                         },
                         {
                             "name": "y length",
@@ -105,7 +95,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -130
+                            "ioValue": -6
                         },
                         {
                             "name": "zDist",
@@ -117,7 +107,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -135,13 +125,6 @@
                     "ap2ID": 175172
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "yDist",
-                    "ap2Primary": false,
-                    "ap1ID": 125971,
-                    "ap2ID": 394625
-                },
-                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "y length",
                     "ap2Primary": false,
@@ -152,6 +135,13 @@
                     "ap2Name": "T",
                     "ap2Primary": false,
                     "ap2ID": 125971
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap2Primary": false,
+                    "ap1ID": 125971,
+                    "ap2ID": 394625
                 },
                 {
                     "ap1Name": "result",
@@ -185,7 +175,7 @@
             "ioValues": [
                 {
                     "name": "Height",
-                    "ioValue": 254
+                    "ioValue": 354
                 }
             ],
             "topLevel": false,
@@ -240,7 +230,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 254
+                            "ioValue": 354
                         }
                     ],
                     "currentEquation": "H/3"
@@ -305,7 +295,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 84.66666666666667
+                            "ioValue": 118
                         },
                         {
                             "name": "zDist",
@@ -317,7 +307,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -388,7 +378,7 @@
             "ioValues": [
                 {
                     "name": "Height",
-                    "ioValue": 254
+                    "ioValue": 354
                 },
                 {
                     "name": "Width",
@@ -452,7 +442,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 254
+                            "ioValue": 354
                         }
                     ],
                     "currentEquation": "H/-3"
@@ -466,7 +456,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 254
+                            "ioValue": 354
                         }
                     ],
                     "currentEquation": "H/3"
@@ -484,7 +474,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 254
+                            "ioValue": 354
                         }
                     ]
                 },
@@ -496,16 +486,12 @@
                     "uniqueID": 651339,
                     "ioValues": [
                         {
-                            "name": "Height",
-                            "ioValue": 254
-                        },
-                        {
-                            "name": "Width",
-                            "ioValue": 300
-                        },
-                        {
                             "name": "Thickness",
                             "ioValue": 6
+                        },
+                        {
+                            "name": "Height",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -518,7 +504,7 @@
                     "ioValues": [
                         {
                             "name": "Height",
-                            "ioValue": 254
+                            "ioValue": 354
                         }
                     ]
                 },
@@ -552,7 +538,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -84.66666666666667
+                            "ioValue": -118
                         },
                         {
                             "name": "zDist",
@@ -573,7 +559,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 84.66666666666667
+                            "ioValue": 118
                         },
                         {
                             "name": "zDist",
@@ -640,7 +626,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -675,13 +661,6 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "Height",
-                    "ap2Primary": false,
-                    "ap1ID": 290812,
-                    "ap2ID": 651339
-                },
-                {
-                    "ap1Name": "number or geometry",
                     "ap2Name": "x length",
                     "ap2Primary": false,
                     "ap1ID": 673086,
@@ -693,13 +672,6 @@
                     "ap2Primary": false,
                     "ap1ID": 673086,
                     "ap2ID": 918677
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "Width",
-                    "ap2Primary": false,
-                    "ap1ID": 673086,
-                    "ap2ID": 651339
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -839,7 +811,7 @@
                 },
                 {
                     "name": "Height",
-                    "ioValue": 360
+                    "ioValue": 460
                 },
                 {
                     "name": "Depth",
@@ -901,7 +873,7 @@
                     "ioValues": [
                         {
                             "name": "Height",
-                            "ioValue": 254
+                            "ioValue": 354
                         },
                         {
                             "name": "Width",
@@ -922,7 +894,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 360
+                            "ioValue": 460
                         },
                         {
                             "name": "L",
@@ -1066,7 +1038,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -1226,7 +1198,7 @@
                 },
                 {
                     "name": "Height",
-                    "ioValue": 360
+                    "ioValue": 460
                 },
                 {
                     "name": "Depth",
@@ -1280,7 +1252,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 360
+                            "ioValue": 460
                         },
                         {
                             "name": "y length",
@@ -1426,7 +1398,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -1764,7 +1736,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -1925,7 +1897,7 @@
                 },
                 {
                     "name": "Height",
-                    "ioValue": 360
+                    "ioValue": 460
                 },
                 {
                     "name": "Lower Box Height",
@@ -2004,7 +1976,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 360
+                            "ioValue": 460
                         },
                         {
                             "name": "L",
@@ -2022,7 +1994,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 360
+                            "ioValue": 460
                         }
                     ],
                     "currentEquation": "H/-2 + 10"
@@ -2044,7 +2016,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -80
+                            "ioValue": -130
                         }
                     ]
                 },
@@ -2065,7 +2037,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -170
+                            "ioValue": -220
                         }
                     ]
                 },
@@ -2091,7 +2063,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -2198,7 +2170,7 @@
             "ioValues": [
                 {
                     "name": "Height",
-                    "ioValue": 360
+                    "ioValue": 460
                 },
                 {
                     "name": "Width",
@@ -2268,7 +2240,7 @@
                         },
                         {
                             "name": "Height",
-                            "ioValue": 360
+                            "ioValue": 460
                         },
                         {
                             "name": "Depth",
@@ -2301,7 +2273,7 @@
                         },
                         {
                             "name": "Height",
-                            "ioValue": 360
+                            "ioValue": 460
                         },
                         {
                             "name": "Depth",
@@ -2334,7 +2306,7 @@
                         },
                         {
                             "name": "Height",
-                            "ioValue": 360
+                            "ioValue": 460
                         },
                         {
                             "name": "Lower Box Height",
@@ -2373,7 +2345,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 360
+                            "ioValue": 460
                         }
                     ],
                     "currentEquation": "H/2"
@@ -2416,7 +2388,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 180
+                            "ioValue": 230
                         }
                     ]
                 },
@@ -2432,7 +2404,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
