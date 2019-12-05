@@ -158,15 +158,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 669528",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 139483",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 556048",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 669528",
                             "ioValue": 10
                         }
                     ],
@@ -184,15 +184,15 @@
                             "ioValue": ""
                         },
                         {
+                            "name": "3D shape 461977",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "3D shape 968869",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 907209",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 461977",
                             "ioValue": 10
                         }
                     ],
@@ -399,7 +399,7 @@
                 },
                 {
                     "name": "Width",
-                    "ioValue": 500
+                    "ioValue": 300
                 },
                 {
                     "name": "Thickness",
@@ -441,7 +441,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 500
+                            "ioValue": 300
                         },
                         {
                             "name": "T",
@@ -473,7 +473,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 500
+                            "ioValue": 300
                         },
                         {
                             "name": "y length",
@@ -504,7 +504,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 512
+                            "ioValue": 312
                         },
                         {
                             "name": "y length",
@@ -789,7 +789,7 @@
                 },
                 {
                     "name": "Width",
-                    "ioValue": 500
+                    "ioValue": 300
                 },
                 {
                     "name": "Height",
@@ -847,7 +847,7 @@
                         },
                         {
                             "name": "Width",
-                            "ioValue": 500
+                            "ioValue": 300
                         },
                         {
                             "name": "Thickness",
@@ -1087,7 +1087,7 @@
                 },
                 {
                     "name": "Width",
-                    "ioValue": 500
+                    "ioValue": 300
                 }
             ],
             "topLevel": false,
@@ -1163,7 +1163,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 500
+                            "ioValue": 300
                         },
                         {
                             "name": "T",
@@ -1202,7 +1202,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 500
+                            "ioValue": 300
                         }
                     ],
                     "currentEquation": "W/2"
@@ -1224,7 +1224,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 250
+                            "ioValue": 150
                         },
                         {
                             "name": "yDist",
@@ -1245,7 +1245,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -256
+                            "ioValue": -156
                         },
                         {
                             "name": "yDist",
@@ -1411,7 +1411,7 @@
                 },
                 {
                     "name": "Width",
-                    "ioValue": 500
+                    "ioValue": 300
                 },
                 {
                     "name": "Thickness",
@@ -1453,7 +1453,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 500
+                            "ioValue": 300
                         },
                         {
                             "name": "T",
@@ -1499,7 +1499,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 500
+                            "ioValue": 300
                         },
                         {
                             "name": "y length",
@@ -1516,7 +1516,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 512
+                            "ioValue": 312
                         },
                         {
                             "name": "y length",
@@ -1770,7 +1770,7 @@
                 },
                 {
                     "name": "Width",
-                    "ioValue": 500
+                    "ioValue": 300
                 },
                 {
                     "name": "Thickness",
@@ -1828,7 +1828,7 @@
                         },
                         {
                             "name": "Width",
-                            "ioValue": 500
+                            "ioValue": 300
                         },
                         {
                             "name": "Thickness",
@@ -2032,7 +2032,7 @@
                 },
                 {
                     "name": "Width",
-                    "ioValue": 500
+                    "ioValue": 300
                 },
                 {
                     "name": "Depth",
@@ -2090,7 +2090,7 @@
                         },
                         {
                             "name": "Width",
-                            "ioValue": 500
+                            "ioValue": 300
                         },
                         {
                             "name": "Height",
@@ -2123,7 +2123,7 @@
                         },
                         {
                             "name": "Width",
-                            "ioValue": 500
+                            "ioValue": 300
                         }
                     ]
                 },
@@ -2140,7 +2140,7 @@
                         },
                         {
                             "name": "Width",
-                            "ioValue": 500
+                            "ioValue": 300
                         },
                         {
                             "name": "Thickness",
