@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Bottom Tab",
-            "x": 353,
-            "y": 83,
+            "x": 361,
+            "y": 71,
             "uniqueID": 651339,
             "ioValues": [
                 {
@@ -13,11 +13,23 @@
                 },
                 {
                     "name": "Height",
-                    "ioValue": 10
+                    "ioValue": 254
+                },
+                {
+                    "name": "Width",
+                    "ioValue": 300
                 }
             ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Height",
+                    "x": 15,
+                    "y": 101,
+                    "uniqueID": 523488,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Input",
                     "name": "Thickness",
@@ -34,7 +46,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 6
+                            "ioValue": 254
                         },
                         {
                             "name": "T",
@@ -45,10 +57,10 @@
                 },
                 {
                     "atomType": "Input",
-                    "name": "Height",
+                    "name": "Width",
                     "x": 15,
-                    "y": 236,
-                    "uniqueID": 523488,
+                    "y": 249,
+                    "uniqueID": 855035,
                     "ioValues": []
                 },
                 {
@@ -60,7 +72,7 @@
                     "ioValues": [
                         {
                             "name": "W",
-                            "ioValue": 6
+                            "ioValue": 300
                         }
                     ],
                     "currentEquation": "W/4"
@@ -74,7 +86,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 1.5
+                            "ioValue": 75
                         },
                         {
                             "name": "y length",
@@ -95,7 +107,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -6
+                            "ioValue": -130
                         },
                         {
                             "name": "zDist",
@@ -116,13 +128,8 @@
                     "ap1Name": "number or geometry",
                     "ap2Name": "H",
                     "ap2Primary": false,
+                    "ap1ID": 523488,
                     "ap2ID": 125971
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "W",
-                    "ap2Primary": false,
-                    "ap2ID": 175172
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -142,6 +149,13 @@
                     "ap2Primary": false,
                     "ap1ID": 125971,
                     "ap2ID": 394625
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap2Primary": false,
+                    "ap1ID": 855035,
+                    "ap2ID": 175172
                 },
                 {
                     "ap1Name": "result",
@@ -175,7 +189,7 @@
             "ioValues": [
                 {
                     "name": "Height",
-                    "ioValue": 354
+                    "ioValue": 254
                 }
             ],
             "topLevel": false,
@@ -230,7 +244,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 354
+                            "ioValue": 254
                         }
                     ],
                     "currentEquation": "H/3"
@@ -295,7 +309,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 118
+                            "ioValue": 84.66666666666667
                         },
                         {
                             "name": "zDist",
@@ -378,7 +392,7 @@
             "ioValues": [
                 {
                     "name": "Height",
-                    "ioValue": 354
+                    "ioValue": 254
                 },
                 {
                     "name": "Width",
@@ -442,7 +456,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 354
+                            "ioValue": 254
                         }
                     ],
                     "currentEquation": "H/-3"
@@ -456,7 +470,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 354
+                            "ioValue": 254
                         }
                     ],
                     "currentEquation": "H/3"
@@ -474,15 +488,15 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 354
+                            "ioValue": 254
                         }
                     ]
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Bottom Tab",
-                    "x": 353,
-                    "y": 83,
+                    "x": 361,
+                    "y": 71,
                     "uniqueID": 651339,
                     "ioValues": [
                         {
@@ -491,7 +505,11 @@
                         },
                         {
                             "name": "Height",
-                            "ioValue": 10
+                            "ioValue": 254
+                        },
+                        {
+                            "name": "Width",
+                            "ioValue": 300
                         }
                     ]
                 },
@@ -504,7 +522,7 @@
                     "ioValues": [
                         {
                             "name": "Height",
-                            "ioValue": 354
+                            "ioValue": 254
                         }
                     ]
                 },
@@ -538,7 +556,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -118
+                            "ioValue": -84.66666666666667
                         },
                         {
                             "name": "zDist",
@@ -559,7 +577,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 118
+                            "ioValue": 84.66666666666667
                         },
                         {
                             "name": "zDist",
@@ -661,6 +679,13 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "Height",
+                    "ap2Primary": false,
+                    "ap1ID": 290812,
+                    "ap2ID": 651339
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "x length",
                     "ap2Primary": false,
                     "ap1ID": 673086,
@@ -672,6 +697,13 @@
                     "ap2Primary": false,
                     "ap1ID": 673086,
                     "ap2ID": 918677
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Width",
+                    "ap2Primary": false,
+                    "ap1ID": 673086,
+                    "ap2ID": 651339
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -811,7 +843,7 @@
                 },
                 {
                     "name": "Height",
-                    "ioValue": 460
+                    "ioValue": 360
                 },
                 {
                     "name": "Depth",
@@ -873,7 +905,7 @@
                     "ioValues": [
                         {
                             "name": "Height",
-                            "ioValue": 354
+                            "ioValue": 254
                         },
                         {
                             "name": "Width",
@@ -894,7 +926,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 460
+                            "ioValue": 360
                         },
                         {
                             "name": "L",
@@ -1198,7 +1230,7 @@
                 },
                 {
                     "name": "Height",
-                    "ioValue": 460
+                    "ioValue": 360
                 },
                 {
                     "name": "Depth",
@@ -1252,7 +1284,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 460
+                            "ioValue": 360
                         },
                         {
                             "name": "y length",
@@ -1897,7 +1929,7 @@
                 },
                 {
                     "name": "Height",
-                    "ioValue": 460
+                    "ioValue": 360
                 },
                 {
                     "name": "Lower Box Height",
@@ -1976,7 +2008,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 460
+                            "ioValue": 360
                         },
                         {
                             "name": "L",
@@ -1994,7 +2026,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 460
+                            "ioValue": 360
                         }
                     ],
                     "currentEquation": "H/-2 + 10"
@@ -2016,7 +2048,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -130
+                            "ioValue": -80
                         }
                     ]
                 },
@@ -2037,7 +2069,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -220
+                            "ioValue": -170
                         }
                     ]
                 },
@@ -2170,7 +2202,7 @@
             "ioValues": [
                 {
                     "name": "Height",
-                    "ioValue": 460
+                    "ioValue": 360
                 },
                 {
                     "name": "Width",
@@ -2240,7 +2272,7 @@
                         },
                         {
                             "name": "Height",
-                            "ioValue": 460
+                            "ioValue": 360
                         },
                         {
                             "name": "Depth",
@@ -2273,7 +2305,7 @@
                         },
                         {
                             "name": "Height",
-                            "ioValue": 460
+                            "ioValue": 360
                         },
                         {
                             "name": "Depth",
@@ -2306,7 +2338,7 @@
                         },
                         {
                             "name": "Height",
-                            "ioValue": 460
+                            "ioValue": 360
                         },
                         {
                             "name": "Lower Box Height",
@@ -2345,7 +2377,7 @@
                     "ioValues": [
                         {
                             "name": "H",
-                            "ioValue": 460
+                            "ioValue": 360
                         }
                     ],
                     "currentEquation": "H/2"
@@ -2388,7 +2420,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 230
+                            "ioValue": 180
                         }
                     ]
                 },
