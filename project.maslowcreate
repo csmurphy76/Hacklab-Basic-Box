@@ -2451,7 +2451,12 @@
                     "x": 1050,
                     "y": 233,
                     "uniqueID": 634943,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": ""
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
