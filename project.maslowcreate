@@ -2446,6 +2446,14 @@
                     ]
                 },
                 {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 1050,
+                    "y": 233,
+                    "uniqueID": 634943,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -2614,6 +2622,20 @@
                     "ap2Primary": false,
                     "ap1ID": 735895,
                     "ap2ID": 911793
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 735895,
+                    "ap2ID": 634943
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 911793,
+                    "ap2ID": 634943
                 },
                 {
                     "ap1Name": "geometry",
