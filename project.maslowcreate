@@ -2385,8 +2385,8 @@
                 {
                     "atomType": "CutLayout",
                     "name": "Cut Layout",
-                    "x": 700,
-                    "y": 204,
+                    "x": 704,
+                    "y": 187,
                     "uniqueID": 735895,
                     "ioValues": [
                         {
@@ -2451,12 +2451,7 @@
                     "x": 1050,
                     "y": 233,
                     "uniqueID": 634943,
-                    "ioValues": [
-                        {
-                            "name": "geometry2",
-                            "ioValue": ""
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
