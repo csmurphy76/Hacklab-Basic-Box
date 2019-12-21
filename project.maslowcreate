@@ -25,7 +25,7 @@
                 {
                     "atomType": "Input",
                     "name": "Height",
-                    "x": 15,
+                    "x": 30,
                     "y": 101,
                     "uniqueID": 523488,
                     "ioValues": []
@@ -33,7 +33,7 @@
                 {
                     "atomType": "Input",
                     "name": "Thickness",
-                    "x": 15,
+                    "x": 30,
                     "y": 187,
                     "ioValues": []
                 },
@@ -58,7 +58,7 @@
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 15,
+                    "x": 30,
                     "y": 249,
                     "uniqueID": 855035,
                     "ioValues": []
@@ -127,46 +127,54 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "H",
+                    "ap2Primary": false,
                     "ap1ID": 523488,
                     "ap2ID": 125971
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "y length",
+                    "ap2Primary": false,
                     "ap2ID": 444569
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "T",
+                    "ap2Primary": false,
                     "ap2ID": 125971
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
+                    "ap2Primary": false,
                     "ap1ID": 125971,
                     "ap2ID": 394625
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "W",
+                    "ap2Primary": false,
                     "ap1ID": 855035,
                     "ap2ID": 175172
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "x length",
+                    "ap2Primary": false,
                     "ap1ID": 175172,
                     "ap2ID": 444569
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 444569,
                     "ap2ID": 394625
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": 394625
                 }
             ],
@@ -189,7 +197,7 @@
                 {
                     "atomType": "Input",
                     "name": "Height",
-                    "x": 15,
+                    "x": 30,
                     "y": 68,
                     "ioValues": []
                 },
@@ -321,47 +329,55 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "H",
+                    "ap2Primary": false,
                     "ap2ID": 205960
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 890060,
                     "ap2ID": 694554
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 890060,
                     "ap2ID": 612014
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 139483",
+                    "ap2Primary": false,
                     "ap1ID": 612014,
                     "ap2ID": 977438
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
+                    "ap2Primary": false,
                     "ap1ID": 205960,
                     "ap2ID": 297278
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 556048",
+                    "ap2Primary": false,
                     "ap1ID": 694554,
                     "ap2ID": 977438
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 977438,
                     "ap2ID": 297278
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": 297278
                 }
             ],
@@ -392,7 +408,7 @@
                 {
                     "atomType": "Input",
                     "name": "Height",
-                    "x": 15,
+                    "x": 30,
                     "y": 68,
                     "uniqueID": 290812,
                     "ioValues": []
@@ -400,7 +416,7 @@
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 15,
+                    "x": 30,
                     "y": 124,
                     "uniqueID": 673086,
                     "ioValues": []
@@ -408,7 +424,7 @@
                 {
                     "atomType": "Input",
                     "name": "Thickness",
-                    "x": 15,
+                    "x": 30,
                     "y": 284,
                     "uniqueID": 202491,
                     "ioValues": []
@@ -636,150 +652,175 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "y length",
+                    "ap2Primary": false,
                     "ap1ID": 290812,
                     "ap2ID": 738261
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "H",
+                    "ap2Primary": false,
                     "ap1ID": 290812,
                     "ap2ID": 674987
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "H",
+                    "ap2Primary": false,
                     "ap1ID": 290812,
                     "ap2ID": 188279
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Height",
+                    "ap2Primary": false,
                     "ap1ID": 290812,
                     "ap2ID": 275074
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Height",
+                    "ap2Primary": false,
                     "ap1ID": 290812,
                     "ap2ID": 651339
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x length",
+                    "ap2Primary": false,
                     "ap1ID": 673086,
                     "ap2ID": 738261
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "W",
+                    "ap2Primary": false,
                     "ap1ID": 673086,
                     "ap2ID": 918677
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Width",
+                    "ap2Primary": false,
                     "ap1ID": 673086,
                     "ap2ID": 651339
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "T",
+                    "ap2Primary": false,
                     "ap1ID": 202491,
                     "ap2ID": 918677
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "height",
+                    "ap2Primary": false,
                     "ap1ID": 202491,
                     "ap2ID": 806374
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Thickness",
+                    "ap2Primary": false,
                     "ap1ID": 202491,
                     "ap2ID": 651339
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "x length",
+                    "ap2Primary": false,
                     "ap1ID": 918677,
                     "ap2ID": 202210
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
+                    "ap2Primary": false,
                     "ap1ID": 188279,
                     "ap2ID": 395354
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
+                    "ap2Primary": false,
                     "ap1ID": 674987,
                     "ap2ID": 744583
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 107885",
+                    "ap2Primary": false,
                     "ap1ID": 738261,
                     "ap2ID": 378981
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 300867",
+                    "ap2Primary": false,
                     "ap1ID": 651339,
                     "ap2ID": 378981
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry2",
+                    "ap2Primary": false,
                     "ap1ID": 275074,
                     "ap2ID": 528549
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 202210,
                     "ap2ID": 744583
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 202210,
                     "ap2ID": 395354
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 914442",
+                    "ap2Primary": false,
                     "ap1ID": 395354,
                     "ap2ID": 378981
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 858475",
+                    "ap2Primary": false,
                     "ap1ID": 744583,
                     "ap2ID": 378981
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry1",
+                    "ap2Primary": false,
                     "ap1ID": 378981,
                     "ap2ID": 528549
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 528549,
                     "ap2ID": 806374
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 806374,
                     "ap2ID": 995262
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": 995262
                 }
             ],
@@ -818,7 +859,7 @@
                 {
                     "atomType": "Input",
                     "name": "Wood Thickness",
-                    "x": 15,
+                    "x": 30,
                     "y": 75,
                     "uniqueID": 541949,
                     "ioValues": []
@@ -826,7 +867,7 @@
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 15,
+                    "x": 30,
                     "y": 117,
                     "uniqueID": 455842,
                     "ioValues": []
@@ -834,7 +875,7 @@
                 {
                     "atomType": "Input",
                     "name": "Height",
-                    "x": 15,
+                    "x": 30,
                     "y": 166,
                     "uniqueID": 237680,
                     "ioValues": []
@@ -842,7 +883,7 @@
                 {
                     "atomType": "Input",
                     "name": "Depth",
-                    "x": 15,
+                    "x": 30,
                     "y": 206,
                     "uniqueID": 939117,
                     "ioValues": []
@@ -850,7 +891,7 @@
                 {
                     "atomType": "Input",
                     "name": "Lower Box Height",
-                    "x": 15,
+                    "x": 30,
                     "y": 249,
                     "uniqueID": 173463,
                     "ioValues": []
@@ -1037,120 +1078,140 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Thickness",
+                    "ap2Primary": false,
                     "ap1ID": 541949,
                     "ap2ID": 323328
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "T",
+                    "ap2Primary": false,
                     "ap1ID": 541949,
                     "ap2ID": 987700
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "T",
+                    "ap2Primary": false,
                     "ap1ID": 541949,
                     "ap2ID": 972337
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Width",
+                    "ap2Primary": false,
                     "ap1ID": 455842,
                     "ap2ID": 323328
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "H",
+                    "ap2Primary": false,
                     "ap1ID": 237680,
                     "ap2ID": 987700
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "D",
+                    "ap2Primary": false,
                     "ap1ID": 939117,
                     "ap2ID": 781540
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "D",
+                    "ap2Primary": false,
                     "ap1ID": 939117,
                     "ap2ID": 593378
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "L",
+                    "ap2Primary": false,
                     "ap1ID": 173463,
                     "ap2ID": 987700
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "L",
+                    "ap2Primary": false,
                     "ap1ID": 173463,
                     "ap2ID": 972337
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 323328,
                     "ap2ID": 459720
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "Height",
+                    "ap2Primary": false,
                     "ap1ID": 987700,
                     "ap2ID": 323328
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
+                    "ap2Primary": false,
                     "ap1ID": 593378,
                     "ap2ID": 426430
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
+                    "ap2Primary": false,
                     "ap1ID": 781540,
                     "ap2ID": 392627
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "zDist",
+                    "ap2Primary": false,
                     "ap1ID": 972337,
                     "ap2ID": 392627
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "zDist",
+                    "ap2Primary": false,
                     "ap1ID": 972337,
                     "ap2ID": 426430
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 459720,
                     "ap2ID": 392627
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 459720,
                     "ap2ID": 426430
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 983279",
+                    "ap2Primary": false,
                     "ap1ID": 426430,
                     "ap2ID": 840717
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 635723",
+                    "ap2Primary": false,
                     "ap1ID": 392627,
                     "ap2ID": 840717
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": 840717
                 }
             ],
@@ -1185,7 +1246,7 @@
                 {
                     "atomType": "Input",
                     "name": "Thickness",
-                    "x": 15,
+                    "x": 30,
                     "y": 68,
                     "uniqueID": 510912,
                     "ioValues": []
@@ -1193,7 +1254,7 @@
                 {
                     "atomType": "Input",
                     "name": "Height",
-                    "x": 15,
+                    "x": 30,
                     "y": 130,
                     "uniqueID": 723694,
                     "ioValues": []
@@ -1201,7 +1262,7 @@
                 {
                     "atomType": "Input",
                     "name": "Depth",
-                    "x": 15,
+                    "x": 30,
                     "y": 207,
                     "uniqueID": 942276,
                     "ioValues": []
@@ -1209,7 +1270,7 @@
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 15,
+                    "x": 30,
                     "y": 256,
                     "uniqueID": 934554,
                     "ioValues": []
@@ -1377,96 +1438,112 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "height",
+                    "ap2Primary": false,
                     "ap1ID": 510912,
                     "ap2ID": 531413
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "T",
+                    "ap2Primary": false,
                     "ap1ID": 510912,
                     "ap2ID": 397758
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x length",
+                    "ap2Primary": false,
                     "ap1ID": 723694,
                     "ap2ID": 989306
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "y length",
+                    "ap2Primary": false,
                     "ap1ID": 942276,
                     "ap2ID": 989306
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "W",
+                    "ap2Primary": false,
                     "ap1ID": 934554,
                     "ap2ID": 536698
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "W",
+                    "ap2Primary": false,
                     "ap1ID": 934554,
                     "ap2ID": 397758
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 989306,
                     "ap2ID": 531413
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 531413,
                     "ap2ID": 723967
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
+                    "ap2Primary": false,
                     "ap1ID": 397758,
                     "ap2ID": 850523
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 723967,
                     "ap2ID": 948341
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "xDist",
+                    "ap2Primary": false,
                     "ap1ID": 536698,
                     "ap2ID": 768295
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 948341,
                     "ap2ID": 768295
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 948341,
                     "ap2ID": 850523
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 991954",
+                    "ap2Primary": false,
                     "ap1ID": 768295,
                     "ap2ID": 188837
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 825634",
+                    "ap2Primary": false,
                     "ap1ID": 850523,
                     "ap2ID": 188837
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": 188837
                 }
             ],
@@ -1497,7 +1574,7 @@
                 {
                     "atomType": "Input",
                     "name": "Depth",
-                    "x": 15,
+                    "x": 30,
                     "y": 58,
                     "uniqueID": 710107,
                     "ioValues": []
@@ -1505,7 +1582,7 @@
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 15,
+                    "x": 30,
                     "y": 101,
                     "uniqueID": 529599,
                     "ioValues": []
@@ -1513,7 +1590,7 @@
                 {
                     "atomType": "Input",
                     "name": "Thickness",
-                    "x": 15,
+                    "x": 30,
                     "y": 282,
                     "uniqueID": 260123,
                     "ioValues": []
@@ -1699,114 +1776,133 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "y length",
+                    "ap2Primary": false,
                     "ap1ID": 710107,
                     "ap2ID": 604262
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "D",
+                    "ap2Primary": false,
                     "ap1ID": 710107,
                     "ap2ID": 637578
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "D",
+                    "ap2Primary": false,
                     "ap1ID": 710107,
                     "ap2ID": 366145
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x length",
+                    "ap2Primary": false,
                     "ap1ID": 529599,
                     "ap2ID": 604262
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "W",
+                    "ap2Primary": false,
                     "ap1ID": 529599,
                     "ap2ID": 219784
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "T",
+                    "ap2Primary": false,
                     "ap1ID": 260123,
                     "ap2ID": 219784
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "height",
+                    "ap2Primary": false,
                     "ap1ID": 260123,
                     "ap2ID": 352040
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "x length",
+                    "ap2Primary": false,
                     "ap1ID": 219784,
                     "ap2ID": 920267
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
+                    "ap2Primary": false,
                     "ap1ID": 366145,
                     "ap2ID": 624991
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "yDist",
+                    "ap2Primary": false,
                     "ap1ID": 637578,
                     "ap2ID": 627681
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 691263",
+                    "ap2Primary": false,
                     "ap1ID": 604262,
                     "ap2ID": 898570
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 920267,
                     "ap2ID": 627681
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 920267,
                     "ap2ID": 624991
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 226236",
+                    "ap2Primary": false,
                     "ap1ID": 920267,
                     "ap2ID": 898570
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 419693",
+                    "ap2Primary": false,
                     "ap1ID": 624991,
                     "ap2ID": 898570
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 748092",
+                    "ap2Primary": false,
                     "ap1ID": 627681,
                     "ap2ID": 898570
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 898570,
                     "ap2ID": 352040
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 352040,
                     "ap2ID": 438821
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": 438821
                 }
             ],
@@ -1845,7 +1941,7 @@
                 {
                     "atomType": "Input",
                     "name": "Depth",
-                    "x": 15,
+                    "x": 30,
                     "y": 61,
                     "uniqueID": 639147,
                     "ioValues": []
@@ -1853,7 +1949,7 @@
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 15,
+                    "x": 30,
                     "y": 140,
                     "uniqueID": 390362,
                     "ioValues": []
@@ -1861,7 +1957,7 @@
                 {
                     "atomType": "Input",
                     "name": "Thickness",
-                    "x": 15,
+                    "x": 30,
                     "y": 184,
                     "uniqueID": 302943,
                     "ioValues": []
@@ -1869,7 +1965,7 @@
                 {
                     "atomType": "Input",
                     "name": "Height",
-                    "x": 15,
+                    "x": 30,
                     "y": 231,
                     "uniqueID": 576443,
                     "ioValues": []
@@ -1898,7 +1994,7 @@
                 {
                     "atomType": "Input",
                     "name": "Lower Box Height",
-                    "x": 15,
+                    "x": 30,
                     "y": 285,
                     "uniqueID": 883263,
                     "ioValues": []
@@ -2007,78 +2103,91 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Depth",
+                    "ap2Primary": false,
                     "ap1ID": 639147,
                     "ap2ID": 117537
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Width",
+                    "ap2Primary": false,
                     "ap1ID": 390362,
                     "ap2ID": 117537
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Thickness",
+                    "ap2Primary": false,
                     "ap1ID": 302943,
                     "ap2ID": 117537
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "H",
+                    "ap2Primary": false,
                     "ap1ID": 576443,
                     "ap2ID": 751081
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "H",
+                    "ap2Primary": false,
                     "ap1ID": 576443,
                     "ap2ID": 106394
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 117537,
                     "ap2ID": 690413
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 117537,
                     "ap2ID": 840269
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "L",
+                    "ap2Primary": false,
                     "ap1ID": 883263,
                     "ap2ID": 106394
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "zDist",
+                    "ap2Primary": false,
                     "ap1ID": 106394,
                     "ap2ID": 840269
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "zDist",
+                    "ap2Primary": false,
                     "ap1ID": 751081,
                     "ap2ID": 690413
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 977263",
+                    "ap2Primary": false,
                     "ap1ID": 840269,
                     "ap2ID": 465798
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 821580",
+                    "ap2Primary": false,
                     "ap1ID": 690413,
                     "ap2ID": 465798
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": 465798
                 }
             ],
@@ -2117,7 +2226,7 @@
                 {
                     "atomType": "Input",
                     "name": "Height",
-                    "x": 15,
+                    "x": 30,
                     "y": 48,
                     "uniqueID": 964257,
                     "ioValues": []
@@ -2125,7 +2234,7 @@
                 {
                     "atomType": "Input",
                     "name": "Width",
-                    "x": 15,
+                    "x": 30,
                     "y": 105,
                     "uniqueID": 346565,
                     "ioValues": []
@@ -2133,7 +2242,7 @@
                 {
                     "atomType": "Input",
                     "name": "Depth",
-                    "x": 15,
+                    "x": 30,
                     "y": 183,
                     "uniqueID": 160839,
                     "ioValues": []
@@ -2141,7 +2250,7 @@
                 {
                     "atomType": "Input",
                     "name": "Wood Thickness",
-                    "x": 15,
+                    "x": 30,
                     "y": 221,
                     "uniqueID": 963365,
                     "ioValues": []
@@ -2178,7 +2287,7 @@
                 {
                     "atomType": "Input",
                     "name": "Lower Box Height",
-                    "x": 15,
+                    "x": 30,
                     "y": 272,
                     "uniqueID": 430214,
                     "ioValues": []
@@ -2335,138 +2444,161 @@
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Height",
+                    "ap2Primary": false,
                     "ap1ID": 964257,
                     "ap2ID": 796098
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Height",
+                    "ap2Primary": false,
                     "ap1ID": 964257,
                     "ap2ID": 231571
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Height",
+                    "ap2Primary": false,
                     "ap1ID": 964257,
                     "ap2ID": 953631
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "H",
+                    "ap2Primary": false,
                     "ap1ID": 964257,
                     "ap2ID": 916159
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Width",
+                    "ap2Primary": false,
                     "ap1ID": 346565,
                     "ap2ID": 796098
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Width",
+                    "ap2Primary": false,
                     "ap1ID": 346565,
                     "ap2ID": 231571
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Width",
+                    "ap2Primary": false,
                     "ap1ID": 346565,
                     "ap2ID": 953631
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Depth",
+                    "ap2Primary": false,
                     "ap1ID": 160839,
                     "ap2ID": 231571
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Depth",
+                    "ap2Primary": false,
                     "ap1ID": 160839,
                     "ap2ID": 953631
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Depth",
+                    "ap2Primary": false,
                     "ap1ID": 160839,
                     "ap2ID": 796098
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Wood Thickness",
+                    "ap2Primary": false,
                     "ap1ID": 963365,
                     "ap2ID": 796098
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Thickness",
+                    "ap2Primary": false,
                     "ap1ID": 963365,
                     "ap2ID": 231571
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Thickness",
+                    "ap2Primary": false,
                     "ap1ID": 963365,
                     "ap2ID": 953631
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 828668",
+                    "ap2Primary": false,
                     "ap1ID": 796098,
                     "ap2ID": 772159
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Lower Box Height",
+                    "ap2Primary": false,
                     "ap1ID": 430214,
                     "ap2ID": 796098
                 },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Lower Box Height",
+                    "ap2Primary": false,
                     "ap1ID": 430214,
                     "ap2ID": 953631
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 190236",
+                    "ap2Primary": false,
                     "ap1ID": 231571,
                     "ap2ID": 772159
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 411823",
+                    "ap2Primary": false,
                     "ap1ID": 953631,
                     "ap2ID": 772159
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": false,
                     "ap1ID": 772159,
                     "ap2ID": 735895
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 772159,
                     "ap2ID": 544727
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "zDist",
+                    "ap2Primary": false,
                     "ap1ID": 916159,
                     "ap2ID": 544727
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": false,
                     "ap1ID": 735895,
                     "ap2ID": 111004
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
+                    "ap2Primary": false,
                     "ap1ID": 544727
                 }
             ],
