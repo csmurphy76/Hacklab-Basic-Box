@@ -2395,11 +2395,11 @@
                         },
                         {
                             "name": "Sheet Width",
-                            "ioValue": 500
+                            "ioValue": 2000
                         },
                         {
                             "name": "Sheet Length",
-                            "ioValue": 500
+                            "ioValue": 1000
                         }
                     ]
                 },
