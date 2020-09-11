@@ -4,27 +4,3 @@
 
 ![](/project.svg)
 
-## Hacklab Basic Box
-
-
-## Front and Back
-
-
-## Panel
-
-
-## Bottom Tab
-
-
-## Cutouts
-
-
-## Sides
-
-
-## Bottoms
-
-
-## Molecule
-
-
